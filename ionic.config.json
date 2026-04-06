@@ -1,0 +1,7 @@
+{
+  "name": "ldce-noise-tracker",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
