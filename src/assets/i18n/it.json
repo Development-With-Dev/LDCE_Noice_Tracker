@@ -81,8 +81,8 @@
         "CALIBRATION_ITEM_TEXT": "Calibra il dispositivo",
         "CALIBRATION_VALUE": "Valore",
         "CALIBRATION_TITLE1": "Istruzioni",
-        "CALIBRATION_TEXT": "<b>VALORI CONSIGLIATI</b><br>- iOS: +24.0 dBA<br>- Android: non esiste un valore unico perché la calibrazione è variabile a seconda del modello, pertanto è necessario seguire quanto riportato nelle istruzioni.<br><br><b>ISTRUZIONI</b><br>Per calibrare il dispositivo occorre confrontare il livello sonoro misurato da OpeNoise con un valore noto misurato da un dispositivo di riferimento, ad esempio:<br>- un fonometro professionale (metodo più accurato)<br>- un dispositivo già calibrato<br>- un iOS a +24.0 dBA<br><br>Eseguire i seguenti passaggi:<br><br>1. Rilevare i livelli generati da una sorgente costante misurati in contemporanea da OpeNoise e dal dispositivo di riferimento nello stesso punto (es. livello OpeNoise 52.3 dBA e dispositivo di riferimento 58.0 dBA)<br>2. Impostare il valore di calibrazione, agendo su interi e decimali (es. 58.0 - 52.3 = +5.7 dBA)<br><br>Al termine delle operazioni il livello misurato da OpeNoise deve coincidere con quello misurato dal dispositivo di riferimento, in caso negativo ripetere la calibrazione.",
-        "CALIBRATION_OPENOISE_VALUE_TEXT": "Livello di OpeNoise",
+        "CALIBRATION_TEXT": "<b>VALORI CONSIGLIATI</b><br>- iOS: +24.0 dBA<br>- Android: non esiste un valore unico perché la calibrazione è variabile a seconda del modello, pertanto è necessario seguire quanto riportato nelle istruzioni.<br><br><b>ISTRUZIONI</b><br>Per calibrare il dispositivo occorre confrontare il livello sonoro misurato da LDCE Noise Tracker con un valore noto misurato da un dispositivo di riferimento, ad esempio:<br>- un fonometro professionale (metodo più accurato)<br>- un dispositivo già calibrato<br>- un iOS a +24.0 dBA<br><br>Eseguire i seguenti passaggi:<br><br>1. Rilevare i livelli generati da una sorgente costante misurati in contemporanea da LDCE Noise Tracker e dal dispositivo di riferimento nello stesso punto (es. livello LDCE Noise Tracker 52.3 dBA e dispositivo di riferimento 58.0 dBA)<br>2. Impostare il valore di calibrazione, agendo su interi e decimali (es. 58.0 - 52.3 = +5.7 dBA)<br><br>Al termine delle operazioni il livello misurato da LDCE Noise Tracker deve coincidere con quello misurato dal dispositivo di riferimento, in caso negativo ripetere la calibrazione.",
+        "CALIBRATION_OPENOISE_VALUE_TEXT": "Livello di LDCE Noise Tracker",
         "CALIBRATION_VALUE_TEXT": "Valore di calibrazione",
         "CALIBRATION_BUTTON": "CALIBRA",
         "CALIBRATION_SENDBUTTON": "INVIA",
@@ -125,8 +125,8 @@
         "SEND_CALIBDATA_CANCEL": "ANNULLA",
         "SEND_CALIBDATA_ZERO": "Sei sicuro che la tua calibrazione sia uguale a 0 dB?",
         "SEND_CALIBDATA_NO_COORDINATES": "Invio dati non riuscito, non è possibile inviare una misura senza coordinate GPS.",
-        "SEND_CALIBDATA_NO_METADATA_OLD_VERSIONS": "Misura realizzata con una precedente versione di OpeNoise, non è possibile modificare i metadati né inviare la misura sul cloud",
-        "PRIVACY_MESSAGGE": "Per inviare la calibrazione e le misure alla comunità OpeNoise occorre prendere visione dell'informativa nella pagina Privacy.",
+        "SEND_CALIBDATA_NO_METADATA_OLD_VERSIONS": "Misura realizzata con una precedente versione di LDCE Noise Tracker, non è possibile modificare i metadati né inviare la misura sul cloud",
+        "PRIVACY_MESSAGGE": "Per inviare la calibrazione e le misure alla comunità LDCE Noise Tracker occorre prendere visione dell'informativa nella pagina Privacy.",
         "PRIVACY_VIEW": "Leggi informativa",
         "PRIVACY_ACCEPTED": "Informativa letta"
       },
@@ -360,25 +360,25 @@
         },
         {
           "TERM_TITLE": "CONDIZIONI DI UTILIZZO",
-          "TERM_TEXT": "Questa app non è progettata per usi professionali in quanto non garantisce una misurazione del rumore sufficientemente accurata.<br>Prima di considerare attendibili i valori rilevati è necessario un confronto con un fonometro professionale nel range di livelli di interesse, in quanto ogni apparecchio ha una specifica risposta al rumore.<br>Per utilizzare i dati acquisiti è comunque necessario avere adeguate conoscenze e competenze tecniche; una misura estemporanea e di breve durata nella maggior parte dei casi può non essere significativa.<br>In caso di dubbi, si prega di consultare, nella sezione <i>Tutorial</i>, le parti relative alla calibrazione del dispositivo e alla verifica della dinamica.<br>Le calibrazioni e le misure inviate alla comunità OpeNoise verranno utilizzate a soli fini statistici e non possono essere utilizzate in alcun modo al fine di verificare la conformità con i limiti di legge."
+          "TERM_TEXT": "Questa app non è progettata per usi professionali in quanto non garantisce una misurazione del rumore sufficientemente accurata.<br>Prima di considerare attendibili i valori rilevati è necessario un confronto con un fonometro professionale nel range di livelli di interesse, in quanto ogni apparecchio ha una specifica risposta al rumore.<br>Per utilizzare i dati acquisiti è comunque necessario avere adeguate conoscenze e competenze tecniche; una misura estemporanea e di breve durata nella maggior parte dei casi può non essere significativa.<br>In caso di dubbi, si prega di consultare, nella sezione <i>Tutorial</i>, le parti relative alla calibrazione del dispositivo e alla verifica della dinamica.<br>Le calibrazioni e le misure inviate alla comunità LDCE Noise Tracker verranno utilizzate a soli fini statistici e non possono essere utilizzate in alcun modo al fine di verificare la conformità con i limiti di legge."
         },
         {
           "SPECIFICS_TITLE": "SPECIFICHE TECNICHE",
-          "SPECIFICS_TEXT": " - Misurazione in tempo reale del livello equivalente di pressione sonora lineare Z e ponderato A<br> - Indicazione livello minimo e massimo<br> - Analisi in 1/3 di ottava e FFT<br> - Salvataggio dati in un file di testo<br> - Calibrazione<br>- Visualizzazione delle misure su mappa<br>- Compilazione di metadati<br>- Condivisione della calibrazione e delle misure con la comunità OpeNoise"
+          "SPECIFICS_TEXT": " - Misurazione in tempo reale del livello equivalente di pressione sonora lineare Z e ponderato A<br> - Indicazione livello minimo e massimo<br> - Analisi in 1/3 di ottava e FFT<br> - Salvataggio dati in un file di testo<br> - Calibrazione<br>- Visualizzazione delle misure su mappa<br>- Compilazione di metadati<br>- Condivisione della calibrazione e delle misure con la comunità LDCE Noise Tracker"
         }
       ],
       "TUTORIAL": [
         {
           "MEASURE_TITLE": "CONSIGLI E SUGGERIMENTI",
-          "MEASURE_TEXT": "- Rimuovere sempre la cover del dispositivo durante l'utilizzo di OpeNoise, sia per eseguire una misura che per calibrare.<br>- Direzionare il dispositivo in modo che il microfono sia orientato verso la sorgente sonora. In genere il microfono è posizionato sulla parte bassa del dispositivo. Il pulsante Ruota permette un’agile lettura dello schermo anche quando ruotato.<br>- Impostare il dispositivo in modalità aerea durante l'utilizzo di OpeNoise."
+          "MEASURE_TEXT": "- Rimuovere sempre la cover del dispositivo durante l'utilizzo di LDCE Noise Tracker, sia per eseguire una misura che per calibrare.<br>- Direzionare il dispositivo in modo che il microfono sia orientato verso la sorgente sonora. In genere il microfono è posizionato sulla parte bassa del dispositivo. Il pulsante Ruota permette un’agile lettura dello schermo anche quando ruotato.<br>- Impostare il dispositivo in modalità aerea durante l'utilizzo di LDCE Noise Tracker."
         },
         {
           "MEASURE_TITLE": "ESEGUIRE UNA MISURA",
-          "MEASURE_TEXT": "La misura del rumore inizia automaticamente con l'apertura di OpeNoise, dopo un conto alla rovescia impostabile (da 0 a 10 secondi) nelle Opzioni. Premendo il pulsante di reset si azzerano tutti i livelli e si inizia una nuova misura.<br>La misura può essere in qualsiasi momento fermata o messa in pausa, togliendo la pausa la registrazione riparte conservando i dati precedenti."
+          "MEASURE_TEXT": "La misura del rumore inizia automaticamente con l'apertura di LDCE Noise Tracker, dopo un conto alla rovescia impostabile (da 0 a 10 secondi) nelle Opzioni. Premendo il pulsante di reset si azzerano tutti i livelli e si inizia una nuova misura.<br>La misura può essere in qualsiasi momento fermata o messa in pausa, togliendo la pausa la registrazione riparte conservando i dati precedenti."
         },
         {
           "CALIBRATION_TITLE": "CALIBRARE IL DISPOSITIVO",
-          "CALIBRATION_TEXT": "Ogni dispositivo risponde in maniera diversa ai segnali acustici, per cui è necessario effettuare una calibrazione. Per calibrare il dispositivo occorre confrontare il livello sonoro misurato da OpeNoise con un valore noto misurato da un fonometro professionale o un dispositivo di riferimento già calibrato. Per iOS si consiglia una calibrazione di +24.0 dBA, mentre per Android la calibrazione è variabile a seconda del modello. Nelle Opzioni/Calibrazione trovi le istruzioni dettagliate per procedere."
+          "CALIBRATION_TEXT": "Ogni dispositivo risponde in maniera diversa ai segnali acustici, per cui è necessario effettuare una calibrazione. Per calibrare il dispositivo occorre confrontare il livello sonoro misurato da LDCE Noise Tracker con un valore noto misurato da un fonometro professionale o un dispositivo di riferimento già calibrato. Per iOS si consiglia una calibrazione di +24.0 dBA, mentre per Android la calibrazione è variabile a seconda del modello. Nelle Opzioni/Calibrazione trovi le istruzioni dettagliate per procedere."
         },
         {
           "RANGE_TITLE": "VERIFICARE LA DINAMICA",
@@ -398,11 +398,11 @@
         },
         {
           "SEND_CALIBRATION_TITLE": "INVIO DELLA CALIBRAZIONE",
-          "SEND_CALIBRAZION_TEXT": "Per inviare la calibrazione alla comunità OpeNoise occorre andare alla pagina Opzioni alla riga 'Invio valore di calibrazione' e premere l'icona a forma di nuvola.<br>L'invio è consentito dopo aver preso visione dell'informativa sulla privacy, calibrato il dispositivo e compilato i dati utente."
+          "SEND_CALIBRAZION_TEXT": "Per inviare la calibrazione alla comunità LDCE Noise Tracker occorre andare alla pagina Opzioni alla riga 'Invio valore di calibrazione' e premere l'icona a forma di nuvola.<br>L'invio è consentito dopo aver preso visione dell'informativa sulla privacy, calibrato il dispositivo e compilato i dati utente."
         },
         {
           "SEND_MEASUREMENTS_TITLE": "INVIO DI UNA MISURA",
-          "SEND_MEASUREMENTS_TEXT": "Per inviare una misura alla comunità OpeNoise occorre andare alla pagina Misure e premere l'icona a forma di nuvola del file di misura che si vuole inviare.<br>L'invio è consentito dopo aver preso visione dell'informativa sulla privacy, calibrato il dispositivo, compilato i dati utente e i metadati della misura.<br>Le misure senza le coordinate geografiche non possono essere inviate; pertanto, è necessario attivare la posizione del dispositivo prima di eseguire una misura."
+          "SEND_MEASUREMENTS_TEXT": "Per inviare una misura alla comunità LDCE Noise Tracker occorre andare alla pagina Misure e premere l'icona a forma di nuvola del file di misura che si vuole inviare.<br>L'invio è consentito dopo aver preso visione dell'informativa sulla privacy, calibrato il dispositivo, compilato i dati utente e i metadati della misura.<br>Le misure senza le coordinate geografiche non possono essere inviate; pertanto, è necessario attivare la posizione del dispositivo prima di eseguire una misura."
         }
       ],
       "GLOSSARY": [
@@ -466,7 +466,7 @@
       "ORIGIN": [
         {
           "OPENOISE_METER_TITLE": "LDCE NOISE TRACKER",
-          "OPENOISE_METER_TEXT": "LDCE Noise Tracker è un'app per la misurazione del rumore attraverso i dispositivi mobili, in grado di emulare il funzionamento di un fonometro.<br>È inoltre possibile condividere i valori di calibrazione e di misura con la comunità OpeNoise, al fine di migliorare la comprensione e gestione del problema dell'inquinamento acustico a livello locale e globale, anche in possibili progetti educativi e di Citizen science.<br>Il progetto è in fase di sviluppo dal 2016."
+          "OPENOISE_METER_TEXT": "LDCE Noise Tracker è un'app per la misurazione del rumore attraverso i dispositivi mobili, in grado di emulare il funzionamento di un fonometro.<br>È inoltre possibile condividere i valori di calibrazione e di misura con la comunità LDCE Noise Tracker, al fine di migliorare la comprensione e gestione del problema dell'inquinamento acustico a livello locale e globale, anche in possibili progetti educativi e di Citizen science.<br>Il progetto è in fase di sviluppo dal 2016."
         },
         {
           "OPENOISE_PROJECT_TITLE": "DETTAGLI DEL PROGETTO",
@@ -474,17 +474,17 @@
         },
         {
           "OPENOISE_BRANCHES_TITLE": "RAMI DEL PROGETTO",
-          "OPENOISE_BRANCHES_TEXT": "Il progetto OpeNoise è suddiviso in tre parti:<br>1) OpeNoise Meter: un'applicazione per la misurazione del rumore attraverso dispositivi mobili<br>2) OpeNoise Map: un plugin per la mappatura del rumore, disponibile all'interno del software geografico libero e open-source QGIS<br>3) OpeNoise Analysis: uno strumento per l'analisi dei dati acustici sviluppato attraverso il framework R-Project per il calcolo statistico"
+          "OPENOISE_BRANCHES_TEXT": "Il progetto LDCE Noise Tracker è suddiviso in tre parti:<br>1) LDCE Noise Tracker Meter: un'applicazione per la misurazione del rumore attraverso dispositivi mobili<br>2) LDCE Noise Tracker Map: un plugin per la mappatura del rumore, disponibile all'interno del software geografico libero e open-source QGIS<br>3) LDCE Noise Tracker Analysis: uno strumento per l'analisi dei dati acustici sviluppato attraverso il framework R-Project per il calcolo statistico"
         }
       ],
       "COMMUNITY": [
         {
           "COMMUNITY_TITLE": "CONDIVISIONE DEI DATI",
-          "COMMUNITY_TEXT": "OpeNoise permette agli utenti di inviare, su base volontaria e in modo completamente anonimo, i valori di calibrazione e delle misure. I dati inviati sono trattati come riportato nella informativa sulla Privacy.<br>Le calibrazioni e le misure inviate alla comunità OpeNoise verranno utilizzate a soli fini statistici e non possono essere utilizzate in alcun modo al fine di verificare la conformità con i limiti di legge."
+          "COMMUNITY_TEXT": "LDCE Noise Tracker permette agli utenti di inviare, su base volontaria e in modo completamente anonimo, i valori di calibrazione e delle misure. I dati inviati sono trattati come riportato nella informativa sulla Privacy.<br>Le calibrazioni e le misure inviate alla comunità LDCE Noise Tracker verranno utilizzate a soli fini statistici e non possono essere utilizzate in alcun modo al fine di verificare la conformità con i limiti di legge."
         },
         {
           "COMMUNITY_TITLE": "CALIBRAZIONE",
-          "COMMUNITY_TEXT": "La raccolta del valore di calibrazione di un grande numero di dispositivi in un unico database può fornire indicazioni utili per la definizione di valori di riferimento specifici per ogni modello da raccomandare agli utenti durante l'installazione di OpeNoise.<br>Il database e i valori di riferimento sono al momento in fase di creazione e verranno pubblicati quando verrà raggiunto un numero sufficiente di calibrazioni inviate."
+          "COMMUNITY_TEXT": "La raccolta del valore di calibrazione di un grande numero di dispositivi in un unico database può fornire indicazioni utili per la definizione di valori di riferimento specifici per ogni modello da raccomandare agli utenti durante l'installazione di LDCE Noise Tracker.<br>Il database e i valori di riferimento sono al momento in fase di creazione e verranno pubblicati quando verrà raggiunto un numero sufficiente di calibrazioni inviate."
         },
         {
           "COMMUNITY_TITLE": "MISURE",
@@ -493,11 +493,11 @@
       ],
       "PRIVACY": [
         {
-          "PRIVACY_TITLE": "",
-          "PRIVACY_TEXT": "L'app non memorizza né condivide alcun dato personale.<br>L'utente può, utilizzando la app, salvare i livelli sonori in forma numerica in un file di testo e, eventualmente, condividere questi dati.<br>Non viene effettuata nessuna registrazione audio né vengono acquisite informazioni sulla localizzazione del dispositivo utilizzato.",
-          "PRIVACY_ACCEPTATION": "Informativa sulla privacy",
-          "PRIVACY_ACCEPTED": "Informativa letta",
-          "PRIVACY_NOT_ACCEPTED": "Informativa da leggere"
+          "PRIVACY_TITLE": "Privacy Policy",
+          "PRIVACY_TEXT": "This app, LDCE Noise Tracker, respects your privacy.<br><br>1. <b>No Personal Data:</b> We do not collect names, emails, or phone numbers.<br>2. <b>No Audio Recording:</b> The app processes sound levels locally; no audio is ever recorded or transmitted.<br>3. <b>Location Data:</b> GPS data is only used if you choose to save or share a measurement on the map.<br>4. <b>Transparency:</b> This is an educational project made by Dev Gondaliya, a Computer Engineering Student.",
+          "PRIVACY_ACCEPTATION": "Privacy notice",
+          "PRIVACY_ACCEPTED": "Notice checked",
+          "PRIVACY_NOT_ACCEPTED": "Notice not checked"
         }
       ],
       "CONTACTS": [
@@ -509,7 +509,8 @@
       ],
       "CREDITS": [
         {
-          "CREDITS_ARPA": "Agenzia Regionale per la Protezione Ambientale del Piemonte"
+          "CREDITS_TITLE": "LDCE Noise Tracker Team",
+          "CREDITS_TEXT": "Developed by Dev Gondaliya, Computer Engineering Student at L.D. College of Engineering (LDCE), Ahmedabad, Gujarat, India."
         }
       ],
       "LICENCE": [],

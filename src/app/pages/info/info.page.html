@@ -124,7 +124,7 @@
         </ion-toolbar>
       </ion-header>
       <ion-content class="ion-padding">
-        <div *ngIf="!(modalArgument === 'CREDITS' || modalArgument === 'PRIVACY')">
+        <div>
           <ion-card *ngFor="let card of cards">
             <ion-card-header>
               <ion-card-title>{{card.TITLE}}</ion-card-title>
@@ -137,22 +137,6 @@
                 style="--background:  var(--custom-selection);">gondaliyadev007&#64;gmail.com</ion-button>
             </div>
           </ion-card>
-        </div>
-        <div *ngIf="modalArgument === 'PRIVACY'">
-          <div style="padding: 20px; font-size: 18px; text-align: center;">
-            <p>Made by Dev Gondaliya a Computer Engineering Student</p>
-          </div>
-        </div>
-        <div *ngIf="modalArgument === 'CREDITS'">
-          <div style="padding-top:20px;">
-            <ion-row class="ion-justify-content-center">
-              <ion-col class="ion-align-self-center" style="text-align:center;" size="12" size-md>
-                <div style="padding: 20px; font-size: 18px;">
-                  Made by Dev Gondaliya a Computer Engineering Student
-                </div>
-              </ion-col>
-            </ion-row>
-          </div>
         </div>
       </ion-content>
       <ion-footer *ngIf="modalArgument === 'PRIVACY'">

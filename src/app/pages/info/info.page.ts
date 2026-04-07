@@ -132,7 +132,8 @@ export class InfoPage implements OnInit {
     // console.log("this.modalArgument", this.modalArgument)
     // console.log("this.variabiliService.translation", this.variabiliService.translation)
     // console.log(this.variabiliService.translation["INFO"][input])
-    if (this.modalArgument != "CREDITS") {
+    if (this.modalArgument != null) {
+      this.cards = []
       for (let c of this.variabiliService.translation["INFO"][input]) {
         let card: any = {}
         for (let property in c) {
