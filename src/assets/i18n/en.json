@@ -464,8 +464,8 @@
           "OPENOISE_METER_TEXT": "LDCE Noise Tracker is a noise measurement app for mobile devices that can emulate the operation of a sound level meter.<br>It is also possible to share calibration and measurement values with the OpeNoise community in order to improve understanding and management of the noise pollution problem locally and globally, including in possible educational and Citizen science projects.<br>The project has been under development since 2016."
         },
         {
-          "OPENOISE_PROJECT_TITLE": "OPENOISE PROJECT",
-          "OPENOISE_PROJECT_TEXT": "OpeNoise is a multi-platform, public and open source noise assessment project, implemented by the Environmental Protection Agency for the Piedmont Region (Arpa Piemonte - Italy), with the support of the Municipality of Turin and the Metropolitan City of Turin.<br>The goal is to provide a first-level and free access tool for public administrations, consultants, universities and companies in the field of environmental acoustics."
+          "OPENOISE_PROJECT_TITLE": "PROJECT DETAILS",
+          "OPENOISE_PROJECT_TEXT": "LDCE Noise Tracker is a multi-platform, public and open source noise assessment project.<br>The goal is to provide a first-level and free access tool for environmental acoustics."
         },
         {
           "OPENOISE_BRANCHES_TITLE": "BRANCHES",
@@ -475,11 +475,11 @@
       "COMMUNITY": [
         {
           "COMMUNITY_TITLE": "DATA SHARING",
-          "COMMUNITY_TEXT": "OpeNoise allows users to voluntarily and completely anonymously submit calibration and measurement values. Submitted data are processed as stated in the privacy notice.<br>The calibrations and measurements sent to the OpeNoise community will be used for statistical purposes only and cannot be used in any way to verify compliance with legal limits."
+          "COMMUNITY_TEXT": "LDCE Noise Tracker allows users to voluntarily and completely anonymously submit calibration and measurement values. Submitted data are processed as stated in the privacy notice.<br>The calibrations and measurements sent to the LDCE Noise Tracker community will be used for statistical purposes only and cannot be used in any way to verify compliance with legal limits."
         },
         {
           "COMMUNITY_TITLE": "CALIBRATION",
-          "COMMUNITY_TEXT": "Collecting the calibration value of a large number of devices in a single database can provide useful indications for the definition of model-specific reference values to be recommended to users when installing OpeNoise.<br>The database and reference values are currently being created and will be published when a sufficient number of calibrations have been submitted."
+          "COMMUNITY_TEXT": "Collecting the calibration value of a large number of devices in a single database can provide useful indications for the definition of model-specific reference values to be recommended to users when installing LDCE Noise Tracker.<br>The database and reference values are currently being created and will be published when a sufficient number of calibrations have been submitted."
         },
         {
           "COMMUNITY_TITLE": "MEASUREMENTS",
@@ -499,7 +499,7 @@
         {
           "CONTACTS_TITLE": "",
           "CONTACTS_TEXT": "If you have any reports, errors or comments please send an email to:",
-          "CONTACTS_TOAST": "openoise@arpa.piemonte.it copied in the clipboard"
+          "CONTACTS_TOAST": "gondaliyadev007@gmail.com copied in the clipboard"
         }
       ],
       "CREDITS": [

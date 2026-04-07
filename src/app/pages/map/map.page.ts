@@ -71,7 +71,7 @@ export class MapPage implements OnInit {
   mapCenter: any
   mapZoom: any
   zoomExtentZoomOut: boolean = false
-  viewBoundsPiemonte = L.latLngBounds(L.latLng(46.4641, 9.2142), L.latLng(44.0601, 6.6266))
+  viewBoundsDefault = L.latLngBounds(L.latLng(23.2, 72.4), L.latLng(22.8, 72.7)) // Ahmedabad area
 
   localFeatures: any
   cloudFeatures: any
@@ -374,8 +374,8 @@ export class MapPage implements OnInit {
       // console.log("this.layerMeasures", this.layerMeasures)
     } else {
       console.log("nessuna misura presente")
-      this.presentAlert(this.variabiliService.translation.MAP.ALERT_HEAD, "", this.variabiliService.translation.MAP.ALERT_TEXT1)
-      this.getPosition(true)
+      // this.presentAlert(this.variabiliService.translation.MAP.ALERT_HEAD, "", this.variabiliService.translation.MAP.ALERT_TEXT1)
+      this.getPosition(false)
     }
 
     function onEachFeature(feature: { properties: { metadata: { popupContent: string; }; }; }, layer: { bindPopup: (arg0: HTMLDivElement) => void; }) {
@@ -593,7 +593,8 @@ export class MapPage implements OnInit {
     var lat: any
     var lon: any
 
-    cooordinatesLatLon = await this.variabiliService.getLocPosition()
+    const silent = !boolean;
+    cooordinatesLatLon = await this.variabiliService.getLocPosition(silent)
 
     lat = cooordinatesLatLon.lat
     lon = cooordinatesLatLon.lon
@@ -632,8 +633,8 @@ export class MapPage implements OnInit {
       this.mapZoom = this.map.getZoom()
 
     } else {
-      this.map.setView(L.latLng(44.8, 8.35), 12)
-      this.map.fitBounds(this.viewBoundsPiemonte)
+      this.map.setView(L.latLng(23.037, 72.552), 12)
+      this.map.fitBounds(this.viewBoundsDefault)
       this.mapCenter = this.map.getCenter()
       this.mapZoom = this.map.getZoom()
     }

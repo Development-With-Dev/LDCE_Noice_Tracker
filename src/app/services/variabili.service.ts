@@ -135,7 +135,7 @@ export class VariabiliService {
     return Promise.resolve(permissionOutput)
   }
 
-  async getLocPosition() {
+  async getLocPosition(silent: boolean = false) {
     console.log("variabiliService getPosition")
 
     var output = {
@@ -144,17 +144,29 @@ export class VariabiliService {
     }
 
     try {
-      const geolocationOuput = await Geolocation.getCurrentPosition({ enableHighAccuracy: true, timeout: 3000 });
+      const permStatus = await Geolocation.checkPermissions();
+      if (permStatus.location !== 'granted') {
+          await Geolocation.requestPermissions({ permissions: ['location'] });
+      }
+      const geolocationOuput = await Geolocation.getCurrentPosition({ enableHighAccuracy: true, timeout: 10000 });
       //console.log("getLocPosition coordinates: ", geolocationOuput)
       output.lat = (geolocationOuput.coords.latitude).toFixed(6)
       output.lon = (geolocationOuput.coords.longitude).toFixed(6)
     } catch (err) {
       console.log("getLocPosition err", err)
-      output = this.locationMessage(err)
+      try {
+        // Fallback: try without high accuracy
+        const geolocationOuput = await Geolocation.getCurrentPosition({ enableHighAccuracy: false, timeout: 10000 });
+        output.lat = (geolocationOuput.coords.latitude).toFixed(6)
+        output.lon = (geolocationOuput.coords.longitude).toFixed(6)
+      } catch (err2) {
+        console.log("getLocPosition fallback err", err2)
+        output = this.locationMessage(err, silent)
+      }
     }
 
     this.lastPosition = {
-      lan: output.lat,
+      lat: output.lat,
       lon: output.lon
     }
 
@@ -163,7 +175,7 @@ export class VariabiliService {
     return Promise.resolve(output)
   }
 
-  locationMessage(err: any) {
+  locationMessage(err: any, silent: boolean = false) {
     // Error: Location permission was denied --> no permission
     // Error: location unavailable --> plane mode (forse)
     // Error: location disabled --> gps off
@@ -172,14 +184,17 @@ export class VariabiliService {
       lat: this.translation.OTHER.GPS_MESSAGE.NO_DATA,
       lon: this.translation.OTHER.GPS_MESSAGE.NO_DATA
     }
-    if (err.message === 'Location permission was denied') {
-      this.presentAlert(this.translation.MAP.ALERT_HEAD, "", this.translation.OTHER.GPS_MESSAGE.PERMITION_DENIED)
-    } else if (err.message === 'location disabled') {
-      this.presentAlert(this.translation.MAP.ALERT_HEAD, "", this.translation.OTHER.GPS_MESSAGE.LOCATION_DISABLED)
-    } else if (err.message === 'location unavailable') {
-      this.presentAlert(this.translation.MAP.ALERT_HEAD, "", this.translation.OTHER.GPS_MESSAGE.GENERIC)
-    } else {
-      this.presentAlert(this.translation.MAP.ALERT_HEAD, "", this.translation.OTHER.GPS_MESSAGE.GENERIC)
+    
+    if (!silent) {
+      if (err.message === 'Location permission was denied') {
+        this.presentAlert(this.translation.MAP.ALERT_HEAD, "", this.translation.OTHER.GPS_MESSAGE.PERMITION_DENIED)
+      } else if (err.message === 'location disabled') {
+        this.presentAlert(this.translation.MAP.ALERT_HEAD, "", this.translation.OTHER.GPS_MESSAGE.LOCATION_DISABLED)
+      } else if (err.message === 'location unavailable') {
+        this.presentAlert(this.translation.MAP.ALERT_HEAD, "", this.translation.OTHER.GPS_MESSAGE.GENERIC)
+      } else {
+        this.presentAlert(this.translation.MAP.ALERT_HEAD, "", this.translation.OTHER.GPS_MESSAGE.GENERIC)
+      }
     }
 
     return output

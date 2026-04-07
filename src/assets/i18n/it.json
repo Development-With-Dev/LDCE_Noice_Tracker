@@ -469,8 +469,8 @@
           "OPENOISE_METER_TEXT": "LDCE Noise Tracker è un'app per la misurazione del rumore attraverso i dispositivi mobili, in grado di emulare il funzionamento di un fonometro.<br>È inoltre possibile condividere i valori di calibrazione e di misura con la comunità OpeNoise, al fine di migliorare la comprensione e gestione del problema dell'inquinamento acustico a livello locale e globale, anche in possibili progetti educativi e di Citizen science.<br>Il progetto è in fase di sviluppo dal 2016."
         },
         {
-          "OPENOISE_PROJECT_TITLE": "PROGETTO OPENOISE",
-          "OPENOISE_PROJECT_TEXT": "OpeNoise è un progetto di analisi del rumore multipiattaforma, pubblico e open-source, realizzato dall'Agenzia per la Protezione dell'Ambiente della Regione Piemonte (Arpa Piemonte - Italia), con il supporto del Comune di Torino e della Città Metropolitana di Torino.<br>L'obiettivo è quello di fornire uno strumento di primo livello e di libero accesso per le amministrazioni pubbliche, i consulenti, le università e le aziende nel campo dell'acustica ambientale."
+          "OPENOISE_PROJECT_TITLE": "DETTAGLI DEL PROGETTO",
+          "OPENOISE_PROJECT_TEXT": "LDCE Noise Tracker è un progetto di analisi del rumore multipiattaforma, pubblico e open-source.<br>L'obiettivo è quello di fornire uno strumento di primo livello e di libero accesso per l'acustica ambientale."
         },
         {
           "OPENOISE_BRANCHES_TITLE": "RAMI DEL PROGETTO",
@@ -504,7 +504,7 @@
         {
           "CONTACTS_TITLE": "",
           "CONTACTS_TEXT": "In caso di segnalazioni, errori o commenti si prega di inviare una mail a:",
-          "CONTACTS_TOAST": "Indirizzo mail openoise@arpa.piemonte.it copiato negli appunti"
+          "CONTACTS_TOAST": "Indirizzo mail gondaliyadev007@gmail.com copiato negli appunti"
         }
       ],
       "CREDITS": [

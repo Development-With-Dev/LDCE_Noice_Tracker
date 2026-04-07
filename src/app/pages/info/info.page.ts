@@ -196,7 +196,7 @@ export class InfoPage implements OnInit {
 
   async copiaMail() {
     const writeToClipboard = await Clipboard.write({
-      string: "openoise@arpa.piemonte.it"
+      string: "gondaliyadev007@gmail.com"
     })
 
     this.presentToast(this.variabiliService.translation.INFO.CONTACTS[0].CONTACTS_TOAST)

@@ -134,71 +134,21 @@
             </ion-card-content>
             <div *ngIf="modalArgument === 'CONTACTS'" style="text-align: center; padding-bottom: 20px;">
               <ion-button mode='ios' (click)="copiaMail()"
-                style="--background:  var(--custom-selection);">openoise&#64;arpa.piemonte.it</ion-button>
+                style="--background:  var(--custom-selection);">gondaliyadev007&#64;gmail.com</ion-button>
             </div>
           </ion-card>
         </div>
         <div *ngIf="modalArgument === 'PRIVACY'">
-          <div *ngIf="urlPDF" style="height: calc(100%);">
-            <pdf-viewer [src]="urlPDF" [render-text]="true" [original-size]="false"
-              style="width: 100%; height: 700px;"></pdf-viewer>
+          <div style="padding: 20px; font-size: 18px; text-align: center;">
+            <p>Made by Dev Gondaliya a Computer Engineering Student</p>
           </div>
         </div>
         <div *ngIf="modalArgument === 'CREDITS'">
-          <!-- <ion-card>
-            <ion-card-header>
-            </ion-card-header>
-            <ion-card-content>
-              <ion-row class="ion-justify-content-center">
-                <ion-col class="ion-align-self-center" style="text-align:center;" size="12" size-md>
-                  <div style="padding: 0px 10px 10px 10px; text-align: center;">
-                    {{variabiliService.translation.INFO.CREDITS[0].CREDITS_ARPA}}
-                  </div>
-                  <ion-row class="ion-justify-content-center">
-                    <ion-col class="ion-align-self-center" style="text-align:center; ">
-                      <a target="_blank" href="https://www.arpa.piemonte.it" style="background-color: #FFFFFF">
-                        <img style="width:80%; max-width: 200px; background-color: #FFFFFF"
-                          src="./assets/loghi/logo_arpa_colori.svg" />
-                      </a>
-                    </ion-col>
-                    <ion-col class="ion-align-self-center" style="text-align:center;">
-                      <a target="_blank" href="https://www.snpambiente.it/">
-                        <img style="width:80%; max-width: 200px; background-color: #FFFFFF"
-                          src="./assets/loghi/logo_SNPA_COL.svg" />
-                      </a>
-                    </ion-col>
-                  </ion-row>
-                  <div style="padding:5px; text-align:center;">
-                    <a style="user-select:text !important; text-decoration-line: none !important;" target="_blank"
-                      href="https://www.arpa.piemonte.it">www.arpa.piemonte.it</a>
-                  </div>
-                </ion-col>
-              </ion-row>
-            </ion-card-content>
-          </ion-card> -->
           <div style="padding-top:20px;">
             <ion-row class="ion-justify-content-center">
               <ion-col class="ion-align-self-center" style="text-align:center;" size="12" size-md>
-                <div style="padding: 0px 10px 10px 10px; text-align: center;">
-                  {{variabiliService.translation.INFO.CREDITS[0].CREDITS_ARPA}}
-                </div>
-                <ion-row class="ion-justify-content-center">
-                  <ion-col class="ion-align-self-center" style="text-align:center; ">
-                    <a target="_blank" href="https://www.arpa.piemonte.it" style="background-color: #FFFFFF">
-                      <img style="width:80%; max-width: 200px; background-color: #FFFFFF"
-                        src="./assets/loghi/logo_arpa_colori.svg" />
-                    </a>
-                  </ion-col>
-                  <ion-col class="ion-align-self-center" style="text-align:center;">
-                    <a target="_blank" href="https://www.snpambiente.it/">
-                      <img style="width:80%; max-width: 200px; background-color: #FFFFFF"
-                        src="./assets/loghi/logo_SNPA_COL.svg" />
-                    </a>
-                  </ion-col>
-                </ion-row>
-                <div style="padding:5px; text-align:center;">
-                  <a style="user-select:text !important; text-decoration-line: none !important;" target="_blank"
-                    href="https://www.arpa.piemonte.it">www.arpa.piemonte.it</a>
+                <div style="padding: 20px; font-size: 18px;">
+                  Made by Dev Gondaliya a Computer Engineering Student
                 </div>
               </ion-col>
             </ion-row>
