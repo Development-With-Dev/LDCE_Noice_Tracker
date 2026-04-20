@@ -94,10 +94,9 @@ export class VariabiliService {
     this.dataRefreshBS = new BehaviorSubject(new Date())
 
     var translation_en = require('../../assets/i18n/en.json')
-    var translation_it = require('../../assets/i18n/it.json')
     this.translation = translation_en.TRANSLATION
 
-    this.setMetadataValuesLabels(translation_en.TRANSLATION, translation_it.TRANSLATION)
+    this.setMetadataValuesLabels(translation_en.TRANSLATION)
 
   }
 
@@ -200,27 +199,24 @@ export class VariabiliService {
     return output
   }
 
-  setMetadataValuesLabels(translation_en: any, translation_it: any) {
+  setMetadataValuesLabels(translation_en: any) {
     this.metadataValuesLabels = {
       "TYPE": [
         {
           "value": "outdoor",
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.OUTDOOR,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.OUTDOOR,
           },
         },
         {
           "value": "openwindows",
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.INDOOR_OPEN_WINDOWS,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.INDOOR_OPEN_WINDOWS,
           },
         },
         {
           "value": "closewindows",
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.INDOOR_CLOSE_WINDOWS,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.INDOOR_CLOSE_WINDOWS,
           }
         }],
@@ -228,21 +224,18 @@ export class VariabiliService {
         {
           "value": "urban",
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.ENVIRONMENT_URBAN,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.ENVIRONMENT_URBAN,
           }
         },
         {
           "value": "rural",
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.ENVIRONMENT_RURAL,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.ENVIRONMENT_RURAL,
           }
         },
         {
           "value": "wilderness",
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.ENVIRONMENT_WILDERNESS,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.ENVIRONMENT_WILDERNESS,
           }
         },
@@ -251,63 +244,54 @@ export class VariabiliService {
         {
           "value": "road",
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.SOURCETYPE_ROAD,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.SOURCETYPE_ROAD,
           },
         },
         {
           "value": "railway",
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.SOURCETYPE_RAILWAY,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.SOURCETYPE_RAILWAY,
           }
         },
         {
           "value": "airplane",
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.SOURCETYPE_AIRPLANE,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.SOURCETYPE_AIRPLANE,
           }
         },
         {
           "value": "boat",
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.SOURCETYPE_BOAT,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.SOURCETYPE_BOAT,
           }
         },
         {
           "value": "electromechanical",
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.SOURCETYPE_ELECTRO_MECHANICAL,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.SOURCETYPE_ELECTRO_MECHANICAL,
           }
         },
         {
           "value": "voice",
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.SOURCETYPE_VOICE,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.SOURCETYPE_VOICE,
           }
         },
         {
           "value": "music",
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.SOURCETYPE_MUSIC,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.SOURCETYPE_MUSIC,
           }
         },
         {
           "value": "nature",
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.SOURCETYPE_NATURE,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.SOURCETYPE_NATURE,
           }
         },
         {
           "value": "otherSource",
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.SOURCETYPE_OTHER,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.SOURCETYPE_OTHER,
           }
         },
@@ -316,49 +300,42 @@ export class VariabiliService {
         {
           "value": "dry",
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.WEATHER_DRY,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.WEATHER_DRY,
           }
         },
         {
           "value": "rainy",
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.WEATHER_RAINY,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.WEATHER_RAINY,
           }
         },
         {
           "value": "wet",
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.WEATHER_WET,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.WEATHER_WET,
           }
         },
         {
           "value": "windy",
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.WEATHER_WINDY,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.WEATHER_WINDY,
           }
         },
         {
           "value": "snow",
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.WEATHER_SNOW,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.WEATHER_SNOW,
           }
         },
         {
           "value": "cloudy",
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.WEATHER_CLOUDY,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.WEATHER_CLOUDY,
           }
         },
         {
           "value": "otherWeather",
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.WEATHER_OTHER,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.WEATHER_OTHER,
           }
         },
@@ -367,49 +344,42 @@ export class VariabiliService {
         {
           "value": "test",
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.WHYTAKENOISE_TEST,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.WHYTAKENOISE_TEST,
           }
         },
         {
           "value": "annoyed",
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.WHYTAKENOISE_ANNOYED,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.WHYTAKENOISE_ANNOYED,
           }
         },
         {
           "value": "professional",
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.WHYTAKENOISE_PROFESSIONAL,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.WHYTAKENOISE_PROFESSIONAL,
           }
         },
         {
           "value": "study",
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.WHYTAKENOISE_STUDY,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.WHYTAKENOISE_STUDY,
           }
         },
         {
           "value": "educational",
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.WHYTAKENOISE_EDUCATIONAL,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.WHYTAKENOISE_EDUCATIONAL,
           }
         },
         {
           "value": "entertaiment",
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.WHYTAKENOISE_ENTERTAIMENT,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.WHYTAKENOISE_ENTERTAIMENT,
           }
         },
         {
           "value": "otherWhy",
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.WHYTAKENOISE_OTHER,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.WHYTAKENOISE_OTHER,
           }
         },
@@ -418,37 +388,31 @@ export class VariabiliService {
         {
           "value": -1,
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.METADATA_BAR_NODATA,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.METADATA_BAR_NODATA,
           }
         }, {
           "value": 0,
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.METADATA_FEELING_VERYBAD,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.METADATA_FEELING_VERYBAD,
           }
         }, {
           "value": 1,
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.METADATA_FEELING_BAD,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.METADATA_FEELING_BAD,
           }
         }, {
           "value": 2,
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.METADATA_FEELING_NOBAD,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.METADATA_FEELING_NOBAD,
           }
         }, {
           "value": 3,
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.METADATA_FEELING_GOOD,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.METADATA_FEELING_GOOD,
           }
         }, {
           "value": 4,
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.METADATA_FEELING_VERYGOOD,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.METADATA_FEELING_VERYGOOD,
           }
         },
@@ -457,37 +421,31 @@ export class VariabiliService {
         {
           "value": -1,
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.METADATA_BAR_NODATA,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.METADATA_BAR_NODATA,
           }
         }, {
           "value": 10,
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.METADATA_APPROPRIATE_NOTATALL,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.METADATA_APPROPRIATE_NOTATALL,
           }
         }, {
           "value": 11,
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.METADATA_APPROPRIATE_SLIGHTLY,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.METADATA_APPROPRIATE_SLIGHTLY,
           }
         }, {
           "value": 12,
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.METADATA_APPROPRIATE_MODERATELY,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.METADATA_APPROPRIATE_MODERATELY,
           }
         }, {
           "value": 13,
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.METADATA_APPROPRIATE_VERY,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.METADATA_APPROPRIATE_VERY,
           }
         }, {
           "value": 14,
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.METADATA_APPROPRIATE_PERFECTLY,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.METADATA_APPROPRIATE_PERFECTLY,
           }
         },
@@ -496,14 +454,12 @@ export class VariabiliService {
         {
           "value": "cloud-true",
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.CLOUD_YES,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.CLOUD_YES,
           }
         },
         {
           "value": "cloud-false",
           "labels": {
-            "it": translation_it.SAVE_FILES.EDIT_DESCRIPTION.CLOUD_NO,
             "en": translation_en.SAVE_FILES.EDIT_DESCRIPTION.CLOUD_NO,
           }
         }
@@ -520,7 +476,7 @@ export class VariabiliService {
       for (let el of this.metadataValuesLabels[m]) {
         if (valueMetadata == el.value) {
           output.metadataProperty = m
-          output.label = el.labels[this.language]
+          output.label = el.labels["en"]
         }
       }
     }

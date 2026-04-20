@@ -35,7 +35,8 @@ import {
   logoGithub, 
   mailOutline, 
   peopleOutline, 
-  ribbonOutline, 
+  peopleCircleOutline,
+  ribbonOutline,
   warningOutline 
 } from 'ionicons/icons';
 
@@ -109,6 +110,7 @@ export class InfoPage implements OnInit {
       logoGithub,
       mailOutline,
       peopleOutline,
+      peopleCircleOutline,
       ribbonOutline,
       warningOutline,
     });

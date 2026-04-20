@@ -1,494 +1,487 @@
 {
   "TRANSLATION": {
     "PREMETER": {
-      "HEADER_FIRST_TIME": "Benvenuto in LDCE Noise Tracker!",
-      "MESSAGE_FIRST_TIME": "LDCE Noise Tracker consente di misurare il livello di rumore in tempo reale. Prima di considerare attendibili i valori rilevati è necessario procedere alla calibrazione del dispositivo. Per un corretto utilizzo di LDCE Noise Tracker si invita a consultare le sezioni Tutorial e Glossario. Buone misure!",
+      "HEADER_FIRST_TIME": "Welcome to LDCE Noise Tracker!",
+      "MESSAGE_FIRST_TIME": "LDCE Noise Tracker is an app aimed at the measurement of real-time sound pressure level. To consider measured data reliable it is necessary to calibrate the device. For more information please refer to the Tutorial and Glossary sections. Good measurements!.",
       "OK": "OK"
     },
     "TABS": {
-      "NOISE_METER": "Fonometro",
-      "SAVED_DATA": "Misure",
-      "MAP": "Mappa",
-      "SETTINGS": "Opzioni",
+      "NOISE_METER": "Noise Meter",
+      "SAVED_DATA": "Measures",
+      "MAP": "Map",
+      "SETTINGS": "Settings",
       "INFO": "Info"
     },
     "NOISE_METER": {
-      "START": "Inizia",
-      "PAUSE": "Pausa",
-      "STOP": "Ferma",
-      "RESET": "Azzera",
-      "SAVE": "Salva",
-      "ROTATE": "Ruota"
+      "START": "Start",
+      "PAUSE": "Pause",
+      "STOP": "Stop",
+      "RESET": "Reset",
+      "SAVE": "Save",
+      "ROTATE": "Rotate"
     },
     "MAP": {
-      "LEGEND": "Legenda",
-      "BASEMAPS": "Mappe di base",
-      "TOPO": "Topografica",
-      "ORTO": "Ortofoto",
-      "ALERT_HEAD": "ATTENZIONE",
-      "ALERT_TEXT1": "Non ci sono misure georiferite!",
-      "ALERT_TEXT2": "C'è stato un problema, riprovare più tardi",
-      "MEASURE_FILTERED": "Misure filtrate: ",
-      "FILTERS": "Filtri: ",
-      "FILTERS2": "Filtri",
-      "FILTER_ME": "Mie misure",
-      "FILTER_COMMUNITY": "Comunità",
-      "MEASURE_FILTER": "Filtra le misure",
-      "MEASURE_DETAILS": "Dettagli",
-      "COMMUNITY_MEASURE": "Misura della comunità"
+      "LEGEND": "Legend",
+      "BASEMAPS": "Base maps",
+      "TOPO": "Topographic ",
+      "ORTO": "Orthophoto",
+      "ALERT_HEAD": "ATTENTION",
+      "ALERT_TEXT1": "There are no geolocalised measurements!",
+      "ALERT_TEXT2": "There was a problem, please try again later",
+      "MEASURE_FILTERED": "Measures filtered: ",
+      "FILTERS": "Filters: ",
+      "FILTERS2": "Filters",
+      "FILTER_ME": "Own measures",
+      "FILTER_COMMUNITY": "Community",
+      "MEASURE_FILTER": "Filter measures",
+      "MEASURE_DETAILS": "Details",
+      "COMMUNITY_MEASURE": "Community measure"
     },
     "LEVELS": {
-      "DATE_START": "Inizio",
-      "DATE_NOW": "Adesso",
-      "ELAPSED_TIME": "Durata",
-      "DAYS": "giorni",
-      "ROTATE": "Ruota"
+      "DATE_START": "Start",
+      "DATE_NOW": "Now",
+      "ELAPSED_TIME": "Elapsed time",
+      "DAYS": "days",
+      "ROTATE": "Rotate"
     },
     "CHARTS": {
-      "GLOBALS": "Globali",
-      "OCTAVES": "1/3 Ottava",
-      "SONOGRAM": "Spettro",
+      "GLOBALS": "Global",
+      "OCTAVES": "1/3 Octave",
+      "SONOGRAM": "Spectrum",
       "FFT": "FFT",
-      "AXIS_DB": "Livello sonoro (dB)",
-      "AXIS_DBA": "Livello sonoro (dBA)",
-      "AXIS_DB_DBA": "Livello sonoro (dB o dBA)",
-      "AXIS_TIME": "Tempo (s)",
-      "AXIS_FREQUENCY_OCTAVES": "Frequenze in Terzi di Ottava (Hz)",
-      "AXIS_FREQUENCY_FFT": "Frequenze (Hz)"
+
+      "AXIS_DB": "Noise level (dB)",
+      "AXIS_DBA": "Noise level (dBA)",
+      "AXIS_DB_DBA": "Noise level (dB or dBA)",
+      "AXIS_TIME": "Time (s)",
+      "AXIS_FREQUENCY_OCTAVES": "1/3 Octave Frequency (Hz)",
+      "AXIS_FREQUENCY_FFT": "Frequency (Hz)"
     },
     "SETTINGS": {
       "USERDATA": {
-        "USERDATA_TITLE": "Dati utente",
-        "USERDATA_AGE": "Età",
-        "USEDATA_GENDER": "Genere",
-        "USEDATA_FEMALE_GENDER": "Femmina",
-        "USEDATA_MALE_GENDER": "Maschio",
-        "USEDATA_OTHER_GENDER": "Altro",
-        "USERDATA_USERTYPE": "Tipo utente",
-        "USERDATA_USERTYPE_BEGINNER": "Principiante",
-        "USERDATA_USERTYPE_BEGINNER_SUB": "Non so nulla di rumore",
-        "USERDATA_USERTYPE_INTERMEDIATE": "Intermedio",
-        "USERDATA_USERTYPE_INTERMEDIATE_SUB": "Ho qualche conoscenza di rumore",
-        "USERDATA_USERTYPE_ADVANCED": "Avanzato",
-        "USERDATA_USERTYPE_ADVANCED_SUB": "Sono un esperto/professionista nel campo del rumore"
+        "USERDATA_TITLE": "User data",
+        "USERDATA_AGE": "Age",
+        "USEDATA_GENDER": "Gender",
+        "USEDATA_FEMALE_GENDER": "Female",
+        "USEDATA_MALE_GENDER": "Male",
+        "USEDATA_OTHER_GENDER": "Other",
+        "USERDATA_USERTYPE": "User type",
+        "USERDATA_USERTYPE_BEGINNER": "Beginner",
+        "USERDATA_USERTYPE_BEGINNER_SUB": "I don't know anything about noise",
+        "USERDATA_USERTYPE_INTERMEDIATE": "Intermediate",
+        "USERDATA_USERTYPE_INTERMEDIATE_SUB": "I have some knowledge of noise",
+        "USERDATA_USERTYPE_ADVANCED": "Advanced",
+        "USERDATA_USERTYPE_ADVANCED_SUB": "I am an expert/professional in the field of noise"
       },
       "NOISE_METER": {
-        "NOISE_METER_TITLE": "Fonometro",
-        "NOISE_METER_TEXT": "La calibrazione è disabilitata quando è in corso una misura"
+        "NOISE_METER_TITLE": "Noise meter",
+        "NOISE_METER_TEXT": "Calibration is disabled because a measurement is in progress"
       },
       "CALIBRATION": {
-        "CALIBRATION_TITLE": "Calibrazione",
-        "CALIBRATION_ITEM_TEXT": "Calibra il dispositivo",
-        "CALIBRATION_VALUE": "Valore",
-        "CALIBRATION_TITLE1": "Istruzioni",
-        "CALIBRATION_TEXT": "<b>VALORI CONSIGLIATI</b><br>- iOS: +24.0 dBA<br>- Android: non esiste un valore unico perché la calibrazione è variabile a seconda del modello, pertanto è necessario seguire quanto riportato nelle istruzioni.<br><br><b>ISTRUZIONI</b><br>Per calibrare il dispositivo occorre confrontare il livello sonoro misurato da LDCE Noise Tracker con un valore noto misurato da un dispositivo di riferimento, ad esempio:<br>- un fonometro professionale (metodo più accurato)<br>- un dispositivo già calibrato<br>- un iOS a +24.0 dBA<br><br>Eseguire i seguenti passaggi:<br><br>1. Rilevare i livelli generati da una sorgente costante misurati in contemporanea da LDCE Noise Tracker e dal dispositivo di riferimento nello stesso punto (es. livello LDCE Noise Tracker 52.3 dBA e dispositivo di riferimento 58.0 dBA)<br>2. Impostare il valore di calibrazione, agendo su interi e decimali (es. 58.0 - 52.3 = +5.7 dBA)<br><br>Al termine delle operazioni il livello misurato da LDCE Noise Tracker deve coincidere con quello misurato dal dispositivo di riferimento, in caso negativo ripetere la calibrazione.",
-        "CALIBRATION_OPENOISE_VALUE_TEXT": "Livello di LDCE Noise Tracker",
-        "CALIBRATION_VALUE_TEXT": "Valore di calibrazione",
-        "CALIBRATION_BUTTON": "CALIBRA",
-        "CALIBRATION_SENDBUTTON": "INVIA",
-        "CALIBRATION_PICKER_TITLE": "Scegli il nuovo valore",
-        "CALIBRATION_PICKER_VALUE_PREVIOUS": "Valore precedente",
-        "CALIBRATION_CANCEL": "ANNULLA",
+        "CALIBRATION_TITLE": "Calibration",
+        "CALIBRATION_ITEM_TEXT": "Calibrate the device",
+        "CALIBRATION_VALUE": "Value",
+        "CALIBRATION_TITLE1": "Instruction",
+        "CALIBRATION_TEXT": "<b>RECOMMENDED VALUES</b><br>- iOS: +24.0 dBA<br>- Android: there is no single value because calibration varies depending on the model, so it is necessary to follow the instructions provided.<br><br><b>INSTRUCTIONS</b><br>To calibrate the device, compare the sound level measured by LDCE Noise Tracker with a known value measured by a reference device, such as:<br>- a professional sound level meter (most accurate method)<br>- an already calibrated device<br>- an iOS device set to +24.0 dBA<br><br>Follow these steps:<br><br>1. Measure the levels generated by a constant sound source simultaneously using LDCE Noise Tracker and the reference device at the same location (e.g., LDCE Noise Tracker level 52.3 dBA and reference device 58.0 dBA)<br>2. Set the calibration value by adjusting the integer and decimal parts (e.g., 58.0 - 52.3 = +5.7 dBA)<br><br>After completing these steps, the level measured by LDCE Noise Tracker should match the level measured by the reference device. If not, repeat the calibration.",
+        "CALIBRATION_OPENOISE_VALUE_TEXT": "LDCE Noise Tracker level",
+        "CALIBRATION_VALUE_TEXT": "Calibration value",
+        "CALIBRATION_BUTTON": "CALIBRATE",
+        "CALIBRATION_PICKER_TITLE": "Set the new value",
+        "CALIBRATION_PICKER_VALUE_PREVIOUS": "Previous value",
+        "CALIBRATION_CANCEL": "CANCEL",
         "CALIBRATION_OK": "OK",
-        "CALIBRATION_YES": "SÌ",
-        "CALIBRATION_INTEGER": "Intero:",
-        "CALIBRATION_DECIMAL": "Decimale:",
-        "CALIBRATION_WARNING": "ATTENZIONE",
-        "CALIBRATION_CONFIRM_QUESTION1": "Sei sicuro di voler cambiare il valore della calibrazione da ",
-        "CALIBRATION_CONFIRM_QUESTION2": " a "
+        "CALIBRATION_YES": "YES",
+        "CALIBRATION_INTEGER": "Integer:",
+        "CALIBRATION_DECIMAL": "Decimal:",
+        "CALIBRATION_WARNING": "WARNING",
+        "CALIBRATION_CONFIRM_QUESTION1": "Are you sure you want to change the calibration value from ",
+        "CALIBRATION_CONFIRM_QUESTION2": " to "
       },
       "SEND_CALIBDATA": {
-        "SEND_CALIBDATA_TITLE": "Invio valore di calibrazione",
-        "SEND_CALIBDATA_TEXT": "Aiutaci a implementare un database di calibrazioni per trovare valori standard",
-        "SEND_CALIBDATA_BUTTONTEXT": "INVIA",
-        "SEND_CALIBDATA_USERTEXT": "Per inviare il valore di calibrazione, occorre aver compilato i dati utente.",
-        "SEND_CALIBDATA_NO_CALIBRATION": "Per inviare la misura, occorre aver inviato il valore di calibrazione.",
-        "SEND_CALIBDATA_NO_METADATA": "Per inviare la misura, occorre aver compilato i metadati.",
-        "SEND_CALIBDATA_NO_PRIVACY": "Per inviare la misura, occorre prendere visione dell'informativa nella pagina Privacy.",
-        "SEND_CALIBDATA_USERTYPE1": "Principiante (non so nulla di rumore)",
-        "SEND_CALIBDATA_USERTYPE2": "Intermedio (ho qualche conoscenza di rumore)",
-        "SEND_CALIBDATA_USERTYPE3": "Avanzato (sono un esperto / professionista nel campo del rumore)",
-        "SEND_CALIBDATA_CALIBTEXT": "Indicare il tipo di calibazione effettuata:",
-        "SEND_CALIBDATA_CALIBTYPE1": "Nessuna (senza confronto)",
-        "SEND_CALIBDATA_CALIBTYPE2": "Intermedia (confronto con altro dispositivo calibrato)",
-        "SEND_CALIBDATA_CALIBTYPE3": "Ottimale (confronto con fonometro professionale / calibratore con mic esterno)",
-        "SEND_CALIBDATA_CALIBTYPE4_ANDROID": "Confronto con un dispositivo iOS calibrato con il valore suggerito di 24.0 dB",
-        "SEND_CALIBDATA_CALIBTYPE4_IOS": "Ho usato il valore suggerito di 24.0 dB per iOS",
-        "SEND_CALIBDATA_MICTEXT": "Indicare il tipo di microfono:",
-        "SEND_CALIBDATA_MICTYPE1": "Interno (microfono del dispositivo)",
-        "SEND_CALIBDATA_MICTYPE2": "Esterno",
-        "SEND_CALIBDATA_EXTERNALMICTEXT": "Indicare il modello di microfono esterno:",
-        "SEND_CALIBDATA_FINALTEXT": "Invio andato a buon fine!  Grazie per aver contribuito alla comunità Openoise.",
-        "SEND_CALIBDATA_NO_NETWORK": "Invio dati non riuscito, rete assente.",
-        "SEND_CALIBDATA_ATTENTION": "ATTENZIONE",
-        "SEND_CALIBDATA_CONGRATULATIONS": "GRAZIE!",
-        "SEND_CALIBDATA_CANCEL": "ANNULLA",
-        "SEND_CALIBDATA_ZERO": "Sei sicuro che la tua calibrazione sia uguale a 0 dB?",
-        "SEND_CALIBDATA_NO_COORDINATES": "Invio dati non riuscito, non è possibile inviare una misura senza coordinate GPS.",
-        "SEND_CALIBDATA_NO_METADATA_OLD_VERSIONS": "Misura realizzata con una precedente versione di LDCE Noise Tracker, non è possibile modificare i metadati né inviare la misura sul cloud",
-        "PRIVACY_MESSAGGE": "Per inviare la calibrazione e le misure alla comunità LDCE Noise Tracker occorre prendere visione dell'informativa nella pagina Privacy.",
-        "PRIVACY_VIEW": "Leggi informativa",
-        "PRIVACY_ACCEPTED": "Informativa letta"
+        "SEND_CALIBDATA_TITLE": "Send calibration to the Community",
+        "SEND_CALIBDATA_TEXT": "Help us to create a calibrations database to find standard values",
+        "SEND_CALIBDATA_BUTTONTEXT": "SEND",
+        "SEND_CALIBDATA_USERTEXT": "To send the calibration value, you have to edit the user data section.",
+        "SEND_CALIBDATA_NO_CALIBRATION": "To send the measurement, you must have sent the calibration value.",
+        "SEND_CALIBDATA_NO_METADATA": "To send the measurement, you must have filled in the metadata.",
+        "SEND_CALIBDATA_NO_PRIVACY": "To send the measurement, you must have checked the information notice in the Privacy page.",
+        "SEND_CALIBDATA_USERTYPE1": "Beginner (I don't know anything about noise)",
+        "SEND_CALIBDATA_USERTYPE2": "Intermediate (I have some knowledge of noise)",
+        "SEND_CALIBDATA_USERTYPE3": "Advanced (I am an expert/professional in the field of noise)",
+        "SEND_CALIBDATA_CALIBTEXT": "Indicate the type of calibration carried out:",
+        "SEND_CALIBDATA_CALIBTYPE1": "None (without comparison)",
+        "SEND_CALIBDATA_CALIBTYPE2": "Intermediate (comparison with other calibrated device)",
+        "SEND_CALIBDATA_CALIBTYPE3": "Optimal (comparison with professional sound level meter/calibrator with external mic)",
+        "SEND_CALIBDATA_CALIBTYPE4_ANDROID": "Comparison with an iOS device calibrated with the suggested value of 24.0 dB",
+        "SEND_CALIBDATA_CALIBTYPE4_IOS": "I used the suggested value of 24.0 dB for iOS",
+        "SEND_CALIBDATA_MICTEXT": "Indicate the type of microphone:",
+        "SEND_CALIBDATA_MICTYPE1": "Internal (device microphone)",
+        "SEND_CALIBDATA_MICTYPE2": "External",
+        "SEND_CALIBDATA_EXTERNALMICTEXT": "Indicate the model of external microphone:",
+        "SEND_CALIBDATA_FINALTEXT": "Successful submission! Thank you for contributing to the LDCE Noise Tracker Community",
+        "SEND_CALIBDATA_NO_NETWORK": "Sending data failed, network absent.",
+        "SEND_CALIBDATA_ATTENTION": "WARNING",
+        "SEND_CALIBDATA_CONGRATULATIONS": "THANK YOU!",
+        "SEND_CALIBDATA_CANCEL": "CANCEL",
+        "SEND_CALIBDATA_ZERO": "Are you sure your calibration is equal to 0 dB?",
+        "SEND_CALIBDATA_NO_COORDINATES": "Sending data failed, a measurement cannot be sent without GPS coordinates.",
+        "SEND_CALIBDATA_NO_METADATA_OLD_VERSIONS": "Measurement taken with a previous version of LDCE Noise Tracker, metadata cannot be edited or sent to the cloud.",
+        "CALIBRATION_CONFIRM_QUESTION": "Are you sure to change the calibration value?",
+        "PRIVACY_MESSAGGE": "In order to send the calibration and measurements to the LDCE Noise Tracker community, you must check the information notice on the Privacy page.",
+        "PRIVACY_VIEW": "Read notice",
+        "PRIVACY_ACCEPTED": "Notice checked"
       },
       "YAXIS_RANGE": {
-        "YAXIS_RANGE_TITLE": "Assi del livello sonoro nei grafici",
-        "YAXIS_RANGE_MIN": "Minimo",
-        "YAXIS_RANGE_MAX": "Massimo"
+        "YAXIS_RANGE_TITLE": "Sound level axes in graphs",
+        "YAXIS_RANGE_MIN": "Minimum",
+        "YAXIS_RANGE_MAX": "Maximum"
       },
       "LEVEL_EVIDENCE": {
-        "LEVEL_EVIDENCE_TITLE": "Livello in evidenza"
+        "LEVEL_EVIDENCE_TITLE": "Level in evidence"
       },
       "AUTOSTART": {
-        "AUTOSTART_TITLE": "Inizio automatico misura all'avvio",
-        "ON": "Attivo",
-        "OFF": "Disattivo"
+        "AUTOSTART_TITLE": "Automatic start of measurement at startup",
+        "ON": "Active",
+        "OFF": "Inactive"
       },
       "COUNTDOWN_MEASURE": {
-        "COUNTDOWN_MEASURE_TITLE": "Conto alla rovescia inizio misura"
+        "COUNTDOWN_MEASURE_TITLE": "Countdown start measurement"
       },
       "RANGE_FREQUENCE": {
-        "RANGE_FREQUENCE_TITLE": "Intervallo frequenze",
-        "RANGE_FREQUENCE_TEXT1": "raccomandato",
-        "RANGE_FREQUENCE_TEXT2": "NON raccomandato",
-        "RANGE_FREQUENCE_TEXT3": "Si consiglia di utilizzare l'intervallo"
+        "RANGE_FREQUENCE_TITLE": "Frequency range",
+        "RANGE_FREQUENCE_TEXT1": "recommended",
+        "RANGE_FREQUENCE_TEXT2": "NOT recommended",
+        "RANGE_FREQUENCE_TEXT3": "It is recommended to use the range"
       },
       "VIEW": {
         "VIEW_LABEL": {
-          "VIEW_TITLE": "Visualizzazione"
+          "VIEW_TITLE": "Visualization"
         },
         "ORIENTATION": {
-          "ORIENTATION_TITLE": "Rotazione schermo all'avvio",
-          "ORIENTATION_PORTRAIT_PRIMARY": "Non ruotato",
-          "ORIENTATION_PORTRAIT_SECONDARY": "Ruotato"
+          "ORIENTATION_TITLE": "Rotate on startup",
+          "ORIENTATION_PORTRAIT_PRIMARY": "Do not rotate",
+          "ORIENTATION_PORTRAIT_SECONDARY": "Rotate"
         },
         "LEVELS": {
-          "LEVELS_TITLE": "Visualizzazione livelli",
-          "LEVELS_HORIZONTAL": "Orizzontale",
-          "LEVELS_VERTICAL": "Verticale"
+          "LEVELS_TITLE": "Visualization levels mode",
+          "LEVELS_HORIZONTAL": "Horizontal",
+          "LEVELS_VERTICAL": "Vertical"
         },
         "VIEW_TYPE": {
-          "VIEW_TYPE_TITLE": "Tipologia"
+          "VIEW_TYPE_TITLE": "Type"
         },
         "COLOR": {
-          "COLOR_TITLE": "Colore",
+          "COLOR_TITLE": "Color",
           "COLOR_AUTO": "Auto",
-          "COLOR_LIGHT": "Chiaro",
-          "COLOR_DARK": "Scuro"
-        },
-        "LANGUAGE": {
-          "LANGUAGE_TITLE": "Lingua",
-          "LANGUAGE_IT": "Italiano",
-          "LANGUAGE_EN": "Inglese"
+          "COLOR_LIGHT": "Light",
+          "COLOR_DARK": "Dark"
         }
       },
       "SAVE_DATA": {
-        "SAVE_DATA_TITLE": "Salvataggio dati",
-        "SAVE_DATA_TEXT": "Le impostazioni sono disabilitate in quanto è in corso il salvataggio di una misura",
-        "TRUE": "Salvati",
-        "FALSE": "Non salvati",
-        "SAVE_DATA_BAND_LAEQ": "Salva LZeq dei 1/3 di ottava",
-        "SAVE_DATA_BAND_LZMIN": "Salva LZmin dei 1/3 di ottava",
-        "SAVE_DATA_DEBUG": "Salva parametri di debug",
+        "SAVE_DATA_TITLE": "Data saving",
+        "SAVE_DATA_TEXT": "Settings are disabled because a measurement is being saved",
+        "TRUE": "Saved",
+        "FALSE": "Not saved",
+        "SAVE_DATA_BAND_LAEQ": "Save LZeq 1/3 octaves levels",
+        "SAVE_DATA_BAND_LZMIN": "Save LZmin 1/3 octaves levels",
+        "SAVE_DATA_DEBUG": "Save debug parameters",
         "SEP_DEC": {
-          "SEP_DEC_TITLE": "Separatore dei decimali",
-          "SEP_DEC_POINT": "Punto",
-          "SEP_DEC_COMMA": "Virgola"
+          "SEP_DEC_TITLE": "Decimal separator",
+          "SEP_DEC_POINT": "Point",
+          "SEP_DEC_COMMA": "Comma"
         },
         "SEP_FIELDS": {
-          "SEP_FIELDS_TITLE": "Separatore dei campi",
-          "SEP_FIELDS_POINT_COMMA": "Punto e virgola",
-          "SEP_FIELDS_COMMA": "Virgola",
+          "SEP_FIELDS_TITLE": "Field separator",
+          "SEP_FIELDS_POINT_COMMA": "Semicolon",
+          "SEP_FIELDS_COMMA": "Comma",
           "SEP_FIELDS_PIPE": "Pipe"
         },
-        "EXTENSION_TITLE": "Estensione del file",
-        "DATE_FORMAT_TITLE": "Formato della data",
-        "DATE_FORMAT_YMD": "A-M-G",
-        "DATE_FORMAT_DMY": "G-M-A",
-        "DATE_FORMAT_MDY": "M-G-A"
+        "EXTENSION_TITLE": "File extension",
+        "DATE_FORMAT_TITLE": "Date format",
+        "DATE_FORMAT_YMD": "Y-M-D",
+        "DATE_FORMAT_DMY": "D-M-Y",
+        "DATE_FORMAT_MDY": "M-D-Y"
       }
     },
     "SAVE_FILES": {
-      "SAVE_FILES_TITLE": "Lista dei file di misura salvati",
+      "SAVE_FILES_TITLE": "List of saved measurement files",
       "SAVE_FILES_HEADER": "File:",
-      "SAVE_FILES_TEXT1": "Modifica",
-      "SAVE_FILES_TEXT2": "molti",
-      "SAVE_FILES_TEXT3": "Nessun file salvato",
-      "SAVE_FILES_TEXT4": "Elimina",
-      "SAVE_FILES_TEXT4_2": "Eliminare definitivamente il file",
-      "SAVE_FILES_TEXT4_2b": "Eliminare definitivamente i files",
-      "SAVE_FILES_TEXT4_2cA": "ATTENZIONE",
-      "SAVE_FILES_TEXT4_2cB": "Selezionare almeno un file",
-      "SAVE_FILES_TEXT5": "Condividi",
-      "SAVE_FILES_TEXT6": "ANNULLA",
-      "SAVE_FILES_TEXT7": "Apri",
-      "SAVE_FILES_TEXT8_TITLE": "ATTENZIONE",
-      "SAVE_FILES_TEXT8": "Per visualizzare correttamente il file occorre utilizzare un programma come LibreOffice Calc o Office Excel. Questo semplice visualizzatore serve unicamente ad effettuare controlli di massima sulla corretta esecuzione della misura.",
-      "SAVE_FILES_TEXT9": "Rinomina",
-      "SAVE_FILES_TEXT10": "Rinomina il file",
-      "SAVE_FILES_TEXT11": "Modifica metadati",
-      "SAVE_FILES_TEXT11_2A": "Descrizione: ",
-      "SAVE_FILES_TEXT11_2B": "Tipo misura: ",
-      "SAVE_FILES_TEXT11_2C": "Sorgente principale: ",
-      "SAVE_FILES_TEXT11_2D": "Meteo: ",
-      "SAVE_FILES_TEXT11_2E": "Sensazione: ",
-      "SAVE_FILES_TEXT11_3": "Coordinate: ",
-      "SAVE_FILES_TEXT11_4": "Calibrazione: ",
-      "SAVE_FILES_TEXT11_5": "Inizio misura: ",
-      "SAVE_FILES_TEXT11_6": "Fine misura: ",
-      "SAVE_FILES_TEXT11_7": "Durata: ",
-      "SAVE_FILES_TEXT12_1": "Vista compatta",
-      "SAVE_FILES_TEXT12_2": "Vista normale",
-      "SAVE_FILES_TEXT12_3": "Vista completa",
-      "SAVE_FILES_TEXT13": "Seleziona tutti",
-      "SAVE_FILES_SAVING": "Salvataggio in corso...",
-      "SAVE_FILES_TIME1": " giorni fa",
-      "SAVE_FILES_TIME2": " ore fa",
-      "SAVE_FILES_TIME3": " minuti fa",
-      "SAVE_FILES_TIME1s": " giorno fa",
-      "SAVE_FILES_TIME2s": " ora fa",
-      "SAVE_FILES_TIME3s": " minuto fa",
-      "SHARE_TITLE": "LDCE Noise Tracker: condivisione misura",
-      "SHARE_TEXT": "In allegato le seguenti misure: ",
-      "SHARE_BUDDIES": "Condividi con gli amici",
+      "SAVE_FILES_TEXT1": "Edit",
+      "SAVE_FILES_TEXT2": "many",
+      "SAVE_FILES_TEXT3": "No files saved",
+      "SAVE_FILES_TEXT4": "Delete",
+      "SAVE_FILES_TEXT4_2": "Permanently delete the file",
+      "SAVE_FILES_TEXT4_2b": "Permanently delete files",
+      "SAVE_FILES_TEXT4_2cA": "WARNING",
+      "SAVE_FILES_TEXT4_2cB": "Select at least one file",
+      "SAVE_FILES_TEXT5": "Share",
+      "SAVE_FILES_TEXT6": "CANCEL",
+      "SAVE_FILES_TEXT7": "Open",
+      "SAVE_FILES_TEXT8_TITLE": "WARNING",
+      "SAVE_FILES_TEXT8": "A program such as LibreOffice Calc or Office Excel must be used to view the file correctly. This simple viewer is only used to perform rough checks on the correct execution of the measurement.",
+      "SAVE_FILES_TEXT9": "Rename",
+      "SAVE_FILES_TEXT10": "Rename the file",
+      "SAVE_FILES_TEXT11": "Edit metadata",
+      "SAVE_FILES_TEXT11_2": "Description: None",
+      "SAVE_FILES_TEXT11_3": "Coordinates: ",
+      "SAVE_FILES_TEXT11_4": "Calibration: ",
+      "SAVE_FILES_TEXT11_5": "Start measurement: ",
+      "SAVE_FILES_TEXT11_6": "End measurement: ",
+      "SAVE_FILES_TEXT11_7": "Duration: ",
+      "SAVE_FILES_TEXT12_1": "Compact view",
+      "SAVE_FILES_TEXT12_2": "Normal view",
+      "SAVE_FILES_TEXT12_3": "Full view",
+      "SAVE_FILES_TEXT13": "Select all",
+      "SAVE_FILES_TIME1": " days ago",
+      "SAVE_FILES_SAVING": "Saving in progress...",
+      "SAVE_FILES_TIME2": " hours ago",
+      "SAVE_FILES_TIME3": " minutes ago",
+      "SAVE_FILES_TIME1s": " day ago",
+      "SAVE_FILES_TIME2s": " hour ago",
+      "SAVE_FILES_TIME3s": " minute ago",
+      "SHARE_TITLE": "LDCE Noise Tracker: sharing measurement",
+      "SHARE_TEXT": "The following measurements are attached: ",
+      "SHARE_BUDDIES": "Share with friends",
       "SAVE_BUTTON": {
-        "SAVE_BUTTON_TEXT1": "Dati salvati nel file:",
-        "SAVE_BUTTON_TEXT2": "ATTENZIONE",
-        "SAVE_BUTTON_TEXT3": "Avviare la misura prima di fare un reset",
-        "SAVE_BUTTON_TEXT4": "Salvataggio file abilitato: la prossima misura verrà salvata nel log file.",
-        "SAVE_BUTTON_TEXT5": "Salvataggio file disabilitato.",
-        "SAVE_BUTTON_TEXT6": "Salvataggio dati in corso nel file: ",
-        "SAVE_BUTTON_TEXT7": "Avviare la misura prima di salvare i dati"
+        "SAVE_BUTTON_TEXT1": "Data saved in the file:",
+        "SAVE_BUTTON_TEXT2": "WARNING",
+        "SAVE_BUTTON_TEXT3": "Start the measurement before doing a reset",
+        "SAVE_BUTTON_TEXT4": "File saving enabled: the next measurement will be saved in the log file.",
+        "SAVE_BUTTON_TEXT5": "File saving disabled.",
+        "SAVE_BUTTON_TEXT6": "Data saving in progress in the file: ",
+        "SAVE_BUTTON_TEXT7": "Start measurement before saving data"
       },
       "METADATA": {
-        "DESCRIPTION": "Descrizione",
-        "TYPE": "Condizione",
-        "ENVIRONMENT": "Ambiente",
-        "SOURCE": "Sorgente",
-        "WEATHER": "Meteo",
-        "FEELING": "Sensazione",
-        "APPROPRIATE": "Appropriato",
-        "WHYTAKENOISE": "Motivo",
-        "COORDINATES": "Coordinate",
-        "CALIBRATION": "Calibrazione",
-        "MEASURE_START": "Inizio misura",
-        "MEASURE_STOP": "Fine misura",
-        "MEASURE_DURATION": "Durata",
+        "DESCRIPTION": "Description",
+        "TYPE": "Condition",
+        "ENVIRONMENT": "Environment",
+        "SOURCE": "Source",
+        "WEATHER": "Weather",
+        "FEELING": "Feeling",
+        "APPROPRIATE": "Appropriate",
+        "WHYTAKENOISE": "Reason",
+        "COORDINATES": "Coordinates",
+        "CALIBRATION": "Calibration",
+        "MEASURE_START": "Measurement start",
+        "MEASURE_STOP": "Measurement stop",
+        "MEASURE_DURATION": "Duration",
         "LAEQ": "LAeq(t)",
         "CLOUD": "Cloud"
       },
       "EDIT_DESCRIPTION": {
-        "EDIT_BUTTON": "Edita metadati",
-        "HEADER_DESCRIPTION": "DESCRIZIONE MISURA",
-        "INSERT_TEXT": "Inserisci testo",
-        "HEADER_MEASURETYPE": "CONDIZIONE DI MISURA",
-        "HEADER_ENVIRONMENT": "AMBIENTE",
-        "HEADER_SOURCETYPE": "SORGENTE PRINCIPALE",
-        "HEADER_FEELING": "DESCRIVI L’AMBIENTE SONORO",
-        "HEADER2_FEELING": "Descrivi:",
-        "HEADER_APPROPRIATE": "L'AMBIENTE SONORO È ADEGUATO AL LUOGO?",
-        "HEADER2_APPROPRIATE": "Appropriato:",
-        "HEADER_WEATHER": "CONDIZIONI METEO",
-        "HEADER_WHYTAKENOISE": "PERCHÉ HAI EFFETTUATO UNA MISURAZIONE CON OPENOISE?",
-        "OUTDOOR": "All'aperto",
-        "INDOOR_OPEN_WINDOWS": "Al chiuso con finestre aperte",
-        "INDOOR_CLOSE_WINDOWS": "Al chiuso con finestre chiuse",
-        "ENVIRONMENT_URBAN": "Urbano",
-        "ENVIRONMENT_RURAL": "Rurale",
-        "ENVIRONMENT_WILDERNESS": "Selvaggio",
-        "SOURCETYPE_ROAD": "Traffico stradale",
-        "SOURCETYPE_RAILWAY": "Traffico ferroviario",
-        "SOURCETYPE_AIRPLANE": "Traffico aereo",
-        "SOURCETYPE_BOAT": "Traffico marittimo",
-        "SOURCETYPE_ELECTRO_MECHANICAL": "Elettro-meccanico",
-        "SOURCETYPE_ELECTRO_MECHANICAL_SUB": "Cantiere, ventilazione, agricoltura, domestico, installazione elettrica, industria",
-        "SOURCETYPE_VOICE": "Voce",
-        "SOURCETYPE_VOICE_SUB": "Parlato, canto, risate, urla",
-        "SOURCETYPE_MUSIC": "Musica",
+        "EDIT_BUTTON": "Edit metadata",
+        "HEADER_DESCRIPTION": "MEASUREMENT DESCRIPTION",
+        "HEADER_MEASURETYPE": "MEASUREMENT CONDITION",
+        "HEADER_ENVIRONMENT": "ENVIRONMENT",
+        "HEADER_SOURCETYPE": "MAIN SOURCE",
+        "HEADER_FEELING": "DESCRIBE THE SOUND ENVIRONMENT",
+        "HEADER2_FEELING": "Describe:",
+        "HEADER_APPROPRIATE": "IS THE SOUND ENVIRONMENT APPROPRIATE TO THE PLACE?",
+        "HEADER2_APPROPRIATE": "Appropriate:",
+        "HEADER_WEATHER": "WEATHER CONDITION",
+        "HEADER_WHYTAKENOISE": "WHY DID YOU TAKE A MEASUREMENT WITH LDCE NOISE TRACKER?",
+        "OUTDOOR": "Outdoor",
+        "INDOOR_OPEN_WINDOWS": "Indoor with open windows",
+        "INDOOR_CLOSE_WINDOWS": "Indoor with closed windows",
+        "ENVIRONMENT_URBAN": "Urban",
+        "ENVIRONMENT_RURAL": "Rural",
+        "ENVIRONMENT_WILDERNESS": "Wilderness",
+        "SOURCETYPE_ROAD": "Roadway traffic",
+        "SOURCETYPE_RAILWAY": "Rail traffic",
+        "SOURCETYPE_AIRPLANE": "Air traffic",
+        "SOURCETYPE_BOAT": "Marine traffic",
+        "SOURCETYPE_ELECTRO_MECHANICAL": "Electro-mechanical",
+        "SOURCETYPE_ELECTRO_MECHANICAL_SUB": "Construction, ventilation, agriculture, domestic, electrical installation, industry",
+        "SOURCETYPE_VOICE": "Voice",
+        "SOURCETYPE_VOICE_SUB": "Speech, singing, laughter, shout",
+        "SOURCETYPE_MUSIC": "Music",
         "SOURCETYPE_MUSIC_SUB": "Concert, disco",
-        "SOURCETYPE_NATURE": "Natura",
-        "SOURCETYPE_NATURE_SUB": "Animali selvatici, vento, acqua, tuoni, movimento terra/ghiaccio",
-        "SOURCETYPE_OTHER": "Altra sorgente",
-        "WEATHER_DRY": "Secco",
-        "WEATHER_WET": "Bagnato",
-        "WEATHER_CLOUDY": "Nuvoloso",
-        "WEATHER_RAINY": "Piovoso",
-        "WEATHER_WINDY": "Ventoso",
-        "WEATHER_SNOW": "Innevato",
-        "WEATHER_OTHER": "Altre condizioni",
-        "WHYTAKENOISE_TEST": "Prova",
-        "WHYTAKENOISE_ANNOYED": "Disturbato da un rumore",
-        "WHYTAKENOISE_PROFESSIONAL": "Uso professionale",
-        "WHYTAKENOISE_STUDY": "Studio",
-        "WHYTAKENOISE_EDUCATIONAL": "Insegnamento, educazione",
-        "WHYTAKENOISE_ENTERTAIMENT": "Passatempo",
-        "WHYTAKENOISE_OTHER": "Altro motivo",
-        "METADATA_BAR_NODATA": "Da valutare",
-        "METADATA_FEELING_VERYGOOD": "Molto buono",
-        "METADATA_FEELING_GOOD": "Buono",
-        "METADATA_FEELING_NOBAD": "Né buono, né brutto",
-        "METADATA_FEELING_BAD": "Brutto",
-        "METADATA_FEELING_VERYBAD": "Molto brutto",
-        "METADATA_APPROPRIATE_NOTATALL": "Per niente",
-        "METADATA_APPROPRIATE_SLIGHTLY": "Leggermente",
-        "METADATA_APPROPRIATE_MODERATELY": "Moderatamente",
-        "METADATA_APPROPRIATE_VERY": "Molto",
-        "METADATA_APPROPRIATE_PERFECTLY": "Perfettamente",
-        "METADATA_EDIT": "Indica in descrizione misura",
-        "CLOUD_YES": "Si",
+        "SOURCETYPE_NATURE": "Nature",
+        "SOURCETYPE_NATURE_SUB": "Wildlife, wind, water, thunder, earth/ice movement",
+        "SOURCETYPE_OTHER": "Other source",
+        "WEATHER_DRY": "Dry",
+        "WEATHER_WET": "Wet",
+        "WEATHER_CLOUDY": "Cloudy",
+        "WEATHER_RAINY": "Rainy",
+        "WEATHER_WINDY": "Windy",
+        "WEATHER_SNOW": "Snowy",
+        "WEATHER_OTHER": "Other condition",
+        "WHYTAKENOISE_TEST": "Test",
+        "WHYTAKENOISE_ANNOYED": "Annoyed by sound sources",
+        "WHYTAKENOISE_PROFESSIONAL": "Professional use",
+        "WHYTAKENOISE_STUDY": "Study",
+        "WHYTAKENOISE_EDUCATIONAL": "Teaching, educational",
+        "WHYTAKENOISE_ENTERTAIMENT": "Entertainment",
+        "WHYTAKENOISE_OTHER": "Other reason",
+        "METADATA_BAR_NODATA": "To be evaluated",
+        "METADATA_FEELING_VERYGOOD": "Very good",
+        "METADATA_FEELING_GOOD": "Good",
+        "METADATA_FEELING_NOBAD": "Neither good, nor bad",
+        "METADATA_FEELING_BAD": "Bad",
+        "METADATA_FEELING_VERYBAD": "Very bad",
+        "METADATA_APPROPRIATE_NOTATALL": "Not at all",
+        "METADATA_APPROPRIATE_SLIGHTLY": "Slightly",
+        "METADATA_APPROPRIATE_MODERATELY": "Moderately",
+        "METADATA_APPROPRIATE_VERY": "Very",
+        "METADATA_APPROPRIATE_PERFECTLY": "Perfectly",
+        "METADATA_EDIT": "Edit in measurement description",
+        "CLOUD_YES": "Yes",
         "CLOUD_NO": "No",
-        "COMPILED": "Compilati"
+        "COMPILED": "Compiled"
       }
     },
     "INFO": {
       "INFO_LABEL": {
-        "INFO_LABEL_TECHNICAL": "Informazioni tecniche",
-        "INFO_LABEL_PROJECT": "Informazioni sul progetto",
-        "INFO_LABEL_DEVELOP": "Sviluppo",
-        "INFO_LABEL_WARNING": "Avvertenze",
-        "INFO_LABEL_DISCLAIMER": "Avvertenze",
-        "INFO_LABEL_GLOSSARY": "Glossario",
-        "INFO_LABEL_ORIGIN": "Origine e finalità",
-        "INFO_LABEL_COMMUNITY": "Condivisione dati con la comunità",
-        "INFO_LABEL_CONTACTS": "Contatti",
-        "INFO_LABEL_VERSION": "Versione",
-        "INFO_LABEL_LICENCE": "Licenza"
+        "INFO_LABEL_TECHNICAL": "Technical information",
+        "INFO_LABEL_PROJECT": "Project information",
+        "INFO_LABEL_DEVELOP": "Development",
+        "INFO_LABEL_WARNING": "Warnings",
+        "INFO_LABEL_DISCLAIMER": "Disclaimer",
+        "INFO_LABEL_GLOSSARY": "Glossary",
+        "INFO_LABEL_ORIGIN": "Origin and purpose",
+        "INFO_LABEL_COMMUNITY": "Share with community",
+        "INFO_LABEL_TEAM": "Team",
+        "INFO_LABEL_CONTACTS": "Contacts",
+        "INFO_LABEL_VERSION": "Version",
+        "INFO_LABEL_LICENCE": "License"
       },
       "WARNING": [
         {
           "OPENOISE_TITLE": "LDCE NOISE TRACKER",
-          "OPENOISE_TEXT": "LDCE Noise Tracker consente di misurare il livello di rumore in tempo reale."
+          "OPENOISE_TEXT": "LDCE Noise Tracker is an app aimed at the measurement of real-time sound pressure level."
         },
         {
-          "TERM_TITLE": "CONDIZIONI DI UTILIZZO",
-          "TERM_TEXT": "Questa app non è progettata per usi professionali in quanto non garantisce una misurazione del rumore sufficientemente accurata.<br>Prima di considerare attendibili i valori rilevati è necessario un confronto con un fonometro professionale nel range di livelli di interesse, in quanto ogni apparecchio ha una specifica risposta al rumore.<br>Per utilizzare i dati acquisiti è comunque necessario avere adeguate conoscenze e competenze tecniche; una misura estemporanea e di breve durata nella maggior parte dei casi può non essere significativa.<br>In caso di dubbi, si prega di consultare, nella sezione <i>Tutorial</i>, le parti relative alla calibrazione del dispositivo e alla verifica della dinamica.<br>Le calibrazioni e le misure inviate alla comunità LDCE Noise Tracker verranno utilizzate a soli fini statistici e non possono essere utilizzate in alcun modo al fine di verificare la conformità con i limiti di legge."
+          "TERM_TITLE": "TERMS OF USE",
+          "TERM_TEXT": "This app is not intended for professional use, it does not necessarily guarantee an accurate noise measurement.<br> Since each device has a different response to noise, a comparison with a professional noise level meter in the measurement dynamic range is required.<br> The utilization of the app requires adequate technical knowledge and skill; an extemporary measurement might not be correct.<br> For more information, please refer to the device calibration and dynamic range specifications in the <i>Tutorial</i> section.<br>The calibrations and measurements sent to the LDCE Noise Tracker community will be used for statistical purposes only and cannot be used in any way to verify compliance with legal limits."
         },
         {
-          "SPECIFICS_TITLE": "SPECIFICHE TECNICHE",
-          "SPECIFICS_TEXT": " - Misurazione in tempo reale del livello equivalente di pressione sonora lineare Z e ponderato A<br> - Indicazione livello minimo e massimo<br> - Analisi in 1/3 di ottava e FFT<br> - Salvataggio dati in un file di testo<br> - Calibrazione<br>- Visualizzazione delle misure su mappa<br>- Compilazione di metadati<br>- Condivisione della calibrazione e delle misure con la comunità LDCE Noise Tracker"
+          "SPECIFICS_TITLE": "TECHNICAL SPECIFICATIONS",
+          "SPECIFICS_TEXT": "- Real-time linear Z and A-weighted sound pressure levels measurement<br> - Minimum and maximum level<br> - 1/3 octave and FFT analysis<br> - Data saving in text file<br> - Calibration<br>- Displaying measurements on a map<br>- Metadata compilation<br>- Sharing calibration and measurements with the LDCE Noise Tracker community"
         }
       ],
       "TUTORIAL": [
         {
-          "MEASURE_TITLE": "CONSIGLI E SUGGERIMENTI",
-          "MEASURE_TEXT": "- Rimuovere sempre la cover del dispositivo durante l'utilizzo di LDCE Noise Tracker, sia per eseguire una misura che per calibrare.<br>- Direzionare il dispositivo in modo che il microfono sia orientato verso la sorgente sonora. In genere il microfono è posizionato sulla parte bassa del dispositivo. Il pulsante Ruota permette un’agile lettura dello schermo anche quando ruotato.<br>- Impostare il dispositivo in modalità aerea durante l'utilizzo di LDCE Noise Tracker."
+          "MEASURE_TITLE": "TIPS AND TRICKS",
+          "MEASURE_TEXT": "- Always remove the device cover when using LDCE Noise Tracker, either to take a measurement or to calibrate.<br>- Direct the device so that the microphone is oriented toward the sound source. Typically, the microphone is positioned on the bottom of the device. The Rotate button allows easy reading of the screen even when rotated.<br>- Set the device to airplane mode while using LDCE Noise Tracker."
         },
         {
-          "MEASURE_TITLE": "ESEGUIRE UNA MISURA",
-          "MEASURE_TEXT": "La misura del rumore inizia automaticamente con l'apertura di LDCE Noise Tracker, dopo un conto alla rovescia impostabile (da 0 a 10 secondi) nelle Opzioni. Premendo il pulsante di reset si azzerano tutti i livelli e si inizia una nuova misura.<br>La misura può essere in qualsiasi momento fermata o messa in pausa, togliendo la pausa la registrazione riparte conservando i dati precedenti."
+          "MEASURE_TITLE": "TAKING A MEASUREMENT",
+          "MEASURE_TEXT": "The noise measurement starts automatically with the opening of LDCE Noise Tracker, after a settable countdown (0 to 10 seconds) in the Settings. Pressing the reset button resets all levels to zero and starts a new measurement.<br>The measurement can be stopped or paused at any time; removing the pause resumes recording, retaining the previous data."
         },
         {
-          "CALIBRATION_TITLE": "CALIBRARE IL DISPOSITIVO",
-          "CALIBRATION_TEXT": "Ogni dispositivo risponde in maniera diversa ai segnali acustici, per cui è necessario effettuare una calibrazione. Per calibrare il dispositivo occorre confrontare il livello sonoro misurato da LDCE Noise Tracker con un valore noto misurato da un fonometro professionale o un dispositivo di riferimento già calibrato. Per iOS si consiglia una calibrazione di +24.0 dBA, mentre per Android la calibrazione è variabile a seconda del modello. Nelle Opzioni/Calibrazione trovi le istruzioni dettagliate per procedere."
+          "CALIBRATION_TITLE": "CALIBRATING THE DEVICE",
+          "CALIBRATION_TEXT": "Each device responds differently to acoustic signals, so calibration is necessary. To calibrate your device, you must compare the sound level measured by LDCE Noise Tracker with a known value measured by a professional sound level meter or an already calibrated reference device. For iOS we recommend a calibration of +24.0 dBA, while for Android the calibration is variable depending on the model. Under Options/Calibration you will find detailed instructions on how to proceed."
         },
         {
-          "RANGE_TITLE": "VERIFICARE LA DINAMICA",
-          "RANGE_TEXT": "Seppur calibrati, i dispositivi non sono in grado di misurare correttamente al di sopra di un valore massimo e al di sotto di un valore minimo. Verificare la dinamica significa individuare questi valori. Dopo aver effettuato la calibrazione bisogna dunque cercare il livello massimo e il livello minimo misurabili, sempre attraverso un confronto con un fonometro professionale. Al di fuori di tali soglie le misurazioni non sono attendibili."
+          "RANGE_TITLE": "DYNAMIC RANGE",
+          "RANGE_TEXT": "Although calibrated, the devices are not able to correctly measure beyond a certain dynamic range (above a maximum value and below a minimum value). After having calibrated the system, it is necessary to check these two values through a comparison with a professional noise level meter. Beyond these threshold, measurements might not be reliable."
         },
         {
-          "SAVING_TITLE": "SALVARE I DATI",
-          "SAVING_TEXT": "L'opzione viene attivata selezionando in Fonometro il pulsante Salva. Vengono così salvati i dati su un file di testo con i livelli sonori misurati (non viene registrato l'audio). I file possono essere aperti nella sezione Misure. In Opzioni è possibile configurare la formattazione del file di testo generato, quali parametri salvare e l'estensione del file (.txt, .csv)."
+          "SAVING_TITLE": "DATA SAVING",
+          "SAVING_TEXT": "The option is activated by selecting the Save button in the Noise Meter. This saves the data to a text file with the measured sound levels (no audio is recorded). Files can be opened in the Measures section. Under Settings, you can configure the formatting of the generated text file, which parameters to save and the file extension (.txt, .csv)."
         },
         {
-          "SAVING_TITLE": "INSERIRE UN MARKER",
-          "SAVING_TEXT": "Attivando la funzione di salvataggio dati (pulsante Salva) si abilita il pulsante Marker che permette di inserire un tag agli eventi di interesse, sia nel grafico che nel file di log."
+          "SAVING_TITLE": "INSERT A MARKER",
+          "SAVING_TEXT": "Activating the save data function (Save button) enables the Marker button that allows you to tag events of interest, either in the graph or in the log file."
         },
         {
-          "PLOTS_TITLE": "GRAFICI",
-          "PLOTS_TEXT": "In Fonometro sono visualizzati 4 grafici nel seguente ordine:<br>- Globali: Andamento temporale dei livelli LAmin, LAeq(1s), LAmax e LAeq(t)<br>- 1/3 Ottava: Spettro delle frequenze in 1/3 di ottava dei livelli LZmax, LZeq(t), LZeq(1s) e LZmin<br>- Sonogramma: Spettro delle frequenze in 1/3 di ottava dei livelli di LZeq(1s)<br>- FFT: Spettro delle frequenze in banda costante calcolato con FFT LZeq(1s) e LAeq(1s)<br>Con un tocco sulla legenda dei grafici si possono abilitare o disabilitare i vari parametri visualizzati."
+          "PLOTS_TITLE": "PLOTS",
+          "PLOTS_TEXT": "Four plots are displayed in the Sound Meter in the following order:<br>- Global: Time course of LAmin, LAeq(1s), LAmax and LAeq(t) levels<br>- 1/3 Octave: 1/3 octave frequency spectrum of the levels LZmax, LZeq(t), LZeq(1s) and LZmin<br>- Sonogram: 1/3 octave frequency spectrum of LZeq(1s) levels<br>- FFT: Constant-band frequency spectrum calculated with FFT LZeq(1s) and LAeq(1s)<br>With a touch on the graph legend, the various displayed parameters can be enabled or disabled."
         },
         {
-          "SEND_CALIBRATION_TITLE": "INVIO DELLA CALIBRAZIONE",
-          "SEND_CALIBRAZION_TEXT": "Per inviare la calibrazione alla comunità LDCE Noise Tracker occorre andare alla pagina Opzioni alla riga 'Invio valore di calibrazione' e premere l'icona a forma di nuvola.<br>L'invio è consentito dopo aver preso visione dell'informativa sulla privacy, calibrato il dispositivo e compilato i dati utente."
+          "SEND_CALIBRATION_TITLE": "SEND CALIBRATION",
+          "SEND_CALIBRAZION_TEXT": "To send the calibration to the LDCE Noise Tracker community, go to the Settings page on the 'Send calibration value' line and simply press the cloud icon.<br>Sending is allowed after checking the privacy notice, calibrating the device and filling in the user data."
         },
         {
-          "SEND_MEASUREMENTS_TITLE": "INVIO DI UNA MISURA",
-          "SEND_MEASUREMENTS_TEXT": "Per inviare una misura alla comunità LDCE Noise Tracker occorre andare alla pagina Misure e premere l'icona a forma di nuvola del file di misura che si vuole inviare.<br>L'invio è consentito dopo aver preso visione dell'informativa sulla privacy, calibrato il dispositivo, compilato i dati utente e i metadati della misura.<br>Le misure senza le coordinate geografiche non possono essere inviate; pertanto, è necessario attivare la posizione del dispositivo prima di eseguire una misura."
+          "SEND_MEASUREMENTS_TITLE": "SEND A MEASUREMENT",
+          "SEND_MEASUREMENTS_TEXT": "To send a measurement to the LDCE Noise Tracker community, go to the Measurements page and press the cloud icon of the measurement file you wish to send.<br>Sending is allowed after checking the privacy notice, calibrating the device, filling in user data and measurement measurement metadata.<br>Measurements without geographical coordinates cannot be sent; therefore, it is necessary to activate the device position before taking a measurement."
         }
       ],
       "GLOSSARY": [
         {
           "dB_TITLE": "dB",
-          "dB_TEXT": "Parametro di misura del livello sonoro."
+          "dB_TEXT": "Parameter for the sound pressure level measurement."
         },
         {
           "dBA_TITLE": "dBA",
-          "dBA_TEXT": "Parametro di misura del livello sonoro ponderato in frequenza secondo la risposta dell'orecchio umano (ponderazione 'A')."
+          "dBA_TEXT": "Parameter for the sound pressure level measurement weighted in frequency according to the response of the human ear ('A' ponderation)."
         },
         {
           "LMin_TITLE": "LZmin",
-          "LMin_TEXT": "Livello sonoro minimo rilevato dall'inizio della misura, espresso in dB."
+          "LMin_TEXT": "Minimum level since the measurement starts, in dB."
         },
         {
           "LAMin_TITLE": "LAmin",
-          "LAMin_TEXT": "Livello sonoro minimo rilevato dall'inizio della misura, espresso in dBA."
+          "LAMin_TEXT": "Minimum level since the measurement starts, in dBA."
         },
         {
           "LMax_TITLE": "LZmax",
-          "LMax_TEXT": "Livello sonoro massimo rilevato dall'inizio della misura, espresso in dB."
+          "LMax_TEXT": "Maximum level since the measurement starts, in dB."
         },
         {
           "LAMax_TITLE": "LAmax",
-          "LAMax_TEXT": "Livello sonoro massimo rilevato dall'inizio della misura, espresso in dBA."
+          "LAMax_TEXT": "Maximum level since the measurement starts, in dBA."
         },
         {
           "LZeq_TITLE": "LZeq(1s)",
-          "LZeq_TEXT": "Livello sonoro equivalente dell'ultimo secondo, espresso in dB."
+          "LZeq_TEXT": "Sound pressure level of the last second, in dB."
         },
         {
           "LAeq_TITLE": "LAeq(1s)",
-          "LAeq_TEXT": "Livello sonoro equivalente dell'ultimo secondo, espresso in dBA."
+          "LAeq_TEXT": "Sound pressure level of the last second, in dBA."
         },
         {
           "LZeq_t_TITLE": "LZeq(t)",
-          "LZeq_t_TEXT": "Livello sonoro equivalente rilevato dall'inizio della misura, espresso in dB."
+          "LZeq_t_TEXT": "Sound pressure level since the measurement starts, in dB."
         },
         {
           "LAeq_t_TITLE": "LAeq(t)",
-          "LAeq_t_TEXT": "Livello sonoro equivalente rilevato dall'inizio della misura, espresso in dBA."
+          "LAeq_t_TEXT": "Sound pressure level since the measurement starts, in dBA."
         },
         {
-          "GLOBAL_TITLE": "LIVELLO GLOBALE",
-          "GLOBAL_TEXT": "Livello sonoro calcolato tenendo conto di tutte le frequenze dello spettro."
+          "GLOBAL_TITLE": "GLOBAL LEVEL",
+          "GLOBAL_TEXT": "Sound pressure level calculated with all the frequency spectrum."
         },
         {
-          "SPECTRUM_TITLE": "SPETTRO",
-          "SPECTRUM_TEXT": "Distribuzione in frequenza del livello sonoro."
+          "SPECTRUM_TITLE": "SPECTRUM",
+          "SPECTRUM_TEXT": "Frequency distribution of the sound pressure level."
         },
         {
-          "OCTAVES_TITLE": "1/3 DI OTTAVA",
-          "OCTAVES_TEXT": "Rappresentazione dello spettro delle frequenze con una larghezza di banda percentuale costante. I dati rappresentati sono espressi in dB."
+          "OCTAVES_TITLE": "1/3 OCTAVE",
+          "OCTAVES_TEXT": "Representation of the frequency spectrum in a constant percentage bandwidth. The data are showed in dB."
         },
         {
-          "FFT_TITLE": "FFT",
-          "FFT_TEXT": "La FFT (Fast Fourier Transform - Trasformata veloce di Fourier) è una tecnica per calcolare lo spettro delle frequenze con una larghezza di banda costante. I dati rappresentati sono espressi in dB e dBA."
+          "FFT_TITLE": "FFT (Fast Fourier Transform)",
+          "FFT_TEXT": "Technique for calculating the frequency spectrum with a constant bandwidth. The data are showed in dB and dBA."
         }
       ],
       "ORIGIN": [
         {
           "OPENOISE_METER_TITLE": "LDCE NOISE TRACKER",
-          "OPENOISE_METER_TEXT": "LDCE Noise Tracker è un'app per la misurazione del rumore attraverso i dispositivi mobili, in grado di emulare il funzionamento di un fonometro.<br>È inoltre possibile condividere i valori di calibrazione e di misura con la comunità LDCE Noise Tracker, al fine di migliorare la comprensione e gestione del problema dell'inquinamento acustico a livello locale e globale, anche in possibili progetti educativi e di Citizen science.<br>Il progetto è in fase di sviluppo dal 2016."
+          "OPENOISE_METER_TEXT": "LDCE Noise Tracker is a noise measurement app for mobile devices that can emulate the operation of a sound level meter.<br>The project aims to improve understanding and management of noise pollution locally in India and globally through citizen science."
         },
         {
-          "OPENOISE_PROJECT_TITLE": "DETTAGLI DEL PROGETTO",
-          "OPENOISE_PROJECT_TEXT": "LDCE Noise Tracker è un progetto di analisi del rumore multipiattaforma, pubblico e open-source.<br>L'obiettivo è quello di fornire uno strumento di primo livello e di libero accesso per l'acustica ambientale."
+          "OPENOISE_PROJECT_TITLE": "PROJECT DETAILS",
+          "OPENOISE_PROJECT_TEXT": "LDCE Noise Tracker is a multi-platform, public and open source noise assessment project.<br>The goal is to provide a first-level and free access tool for environmental acoustics."
         },
         {
-          "OPENOISE_BRANCHES_TITLE": "RAMI DEL PROGETTO",
-          "OPENOISE_BRANCHES_TEXT": "Il progetto LDCE Noise Tracker è suddiviso in tre parti:<br>1) LDCE Noise Tracker Meter: un'applicazione per la misurazione del rumore attraverso dispositivi mobili<br>2) LDCE Noise Tracker Map: un plugin per la mappatura del rumore, disponibile all'interno del software geografico libero e open-source QGIS<br>3) LDCE Noise Tracker Analysis: uno strumento per l'analisi dei dati acustici sviluppato attraverso il framework R-Project per il calcolo statistico"
+          "OPENOISE_BRANCHES_TITLE": "LDCE PROJECT SCOPE",
+          "OPENOISE_BRANCHES_TEXT": "The project is focused on:<br>1) LDCE Noise Tracker: an application for noise measurements through mobile devices<br>2) Educational noise mapping and analysis for urban environments."
         }
       ],
       "COMMUNITY": [
         {
-          "COMMUNITY_TITLE": "CONDIVISIONE DEI DATI",
-          "COMMUNITY_TEXT": "LDCE Noise Tracker permette agli utenti di inviare, su base volontaria e in modo completamente anonimo, i valori di calibrazione e delle misure. I dati inviati sono trattati come riportato nella informativa sulla Privacy.<br>Le calibrazioni e le misure inviate alla comunità LDCE Noise Tracker verranno utilizzate a soli fini statistici e non possono essere utilizzate in alcun modo al fine di verificare la conformità con i limiti di legge."
+          "COMMUNITY_TITLE": "DATA SHARING",
+          "COMMUNITY_TEXT": "LDCE Noise Tracker allows users to voluntarily and completely anonymously submit calibration and measurement values. Submitted data are processed as stated in the privacy notice.<br>The calibrations and measurements sent to the LDCE Noise Tracker community will be used for statistical purposes only and cannot be used in any way to verify compliance with legal limits."
         },
         {
-          "COMMUNITY_TITLE": "CALIBRAZIONE",
-          "COMMUNITY_TEXT": "La raccolta del valore di calibrazione di un grande numero di dispositivi in un unico database può fornire indicazioni utili per la definizione di valori di riferimento specifici per ogni modello da raccomandare agli utenti durante l'installazione di LDCE Noise Tracker.<br>Il database e i valori di riferimento sono al momento in fase di creazione e verranno pubblicati quando verrà raggiunto un numero sufficiente di calibrazioni inviate."
+          "COMMUNITY_TITLE": "CALIBRATION",
+          "COMMUNITY_TEXT": "Collecting the calibration value of a large number of devices in a single database can provide useful indications for the definition of model-specific reference values to be recommended to users when installing LDCE Noise Tracker.<br>The database and reference values are currently being created and will be published when a sufficient number of calibrations have been submitted."
         },
         {
-          "COMMUNITY_TITLE": "MISURE",
-          "COMMUNITY_TEXT": "La raccolta delle misure degli utenti può aiutare ad ampliare le informazioni disponibili circa i paesaggi sonori. Inoltre, può favorire la collaborazione tra ricercatori, autorità locali e cittadini interessati al monitoraggio dell'inquinamento acustico. Tutte le misure inviate sono visibili sulla mappa. Per ogni misura è necessario compilare un insieme di informazioni (metadati) per contestualizzare il dato e la percezione del paesaggio sonoro, prendendo spunto dalle indicazioni della norma ISO/TS 12913-2:2018 <i>Acoustics - Soundscape - Part 2: Data collection and reporting requirements</i>."
+          "COMMUNITY_TITLE": "MEASUREMENTS",
+          "COMMUNITY_TITLE": "MEASUREMENTS",
+          "COMMUNITY_TEXT": "The collection of user measurements can help expand the information available about soundscapes. It can also foster collaboration between researchers, local authorities and citizens interested in noise pollution monitoring. All submitted measurements are visible on the map. For each measurement it is necessary to compile a set of information (metadata) to contextualise the data and the perception of the soundscape, based on the indications of the standard ISO/TS 12913-2:2018 <i>Acoustics - Soundscape - Part 2: Data collection and reporting requirements</i>."
         }
       ],
       "PRIVACY": [
@@ -503,8 +496,8 @@
       "CONTACTS": [
         {
           "CONTACTS_TITLE": "",
-          "CONTACTS_TEXT": "In caso di segnalazioni, errori o commenti si prega di inviare una mail a:",
-          "CONTACTS_TOAST": "Indirizzo mail gondaliyadev007@gmail.com copiato negli appunti"
+          "CONTACTS_TEXT": "If you have any reports, errors or comments please send an email to:",
+          "CONTACTS_TOAST": "gondaliyadev007@gmail.com copied in the clipboard"
         }
       ],
       "CREDITS": [
@@ -513,19 +506,25 @@
           "CREDITS_TEXT": "Developed by Dev Gondaliya, Computer Engineering Student at L.D. College of Engineering (LDCE), Ahmedabad, Gujarat, India."
         }
       ],
+      "TEAM": [
+        {
+          "TEAM_TITLE": "Development Team",
+          "TEAM_TEXT": "1) Dev Gondaliya<br>2) Jigar Ghoghari<br>3) Dev Bhavsar<br>4) Dev Letwala<br>5) Kaushal yadav"
+        }
+      ],
       "LICENCE": [],
       "GITHUB": []
     },
     "OTHER": {
       "GPS_MESSAGE": {
-        "GENERIC": "Non è stato possibile recuperare la posizione, verificare di non essere in modalità aereo o avere il GPS disabilitato.",
-        "LOCATION_DISABLED": "Non è stato possibile recuperare la posizione, il GPS sembra essere disattivato.",
-        "PERMITION_DENIED": "Non è stato possibile recuperare la posizione, controllare le autorizzazioni di geolocalizzazione.",
-        "PLANE_MODE": "Modalità aereo",
-        "NO_DATA": "Nessun dato"
+        "GENERIC": "Could not retrieve position, check that you are not in plane mode or have GPS disabled.",
+        "LOCATION_DISABLED": "The position could not be retrieved, the GPS seems to be disabled.",
+        "PERMITION_DENIED": "Location could not be retrieved, check geolocation permissions.",
+        "PLANE_MODE": "Plane mode",
+        "NO_DATA": "No data"
       },
       "NETWORK_MESSAGE": {
-        "NO_NETWORK": "Non c'è rete, controllare la connessione a Internet."
+        "NO_NETWORK": "There is no network, check your Internet connection."
       }
     }
   }

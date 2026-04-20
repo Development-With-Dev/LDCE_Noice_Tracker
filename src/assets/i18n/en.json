@@ -51,7 +51,7 @@
       "FFT": "FFT",
       "AXIS_DB": "Noise level (dB)",
       "AXIS_DBA": "Noise level (dBA)",
-      "AXIS_DB_DBA": "Noise level (dB o dBA)",
+      "AXIS_DB_DBA": "Noise level (dB or dBA)",
       "AXIS_TIME": "Time (s)",
       "AXIS_FREQUENCY_OCTAVES": "1/3 Octave Frequency (Hz)",
       "AXIS_FREQUENCY_FFT": "Frequency (Hz)"
@@ -126,7 +126,7 @@
         "SEND_CALIBDATA_NO_COORDINATES": "Sending data failed, a measurement cannot be sent without GPS coordinates.",
         "SEND_CALIBDATA_NO_METADATA_OLD_VERSIONS": "Measurement taken with a previous version of LDCE Noise Tracker, metadata cannot be edited or sent to the cloud.",
         "CALIBRATION_CONFIRM_QUESTION": "Are you sure to change the calibration value?",
-        "PRIVACY_MESSAGGE": "In order to send the calibration and measurements to the LDCE Noise Tracker community, you must checked the information notice on the Privacy page.",
+        "PRIVACY_MESSAGGE": "In order to send the calibration and measurements to the LDCE Noise Tracker community, you must check the information notice on the Privacy page.",
         "PRIVACY_VIEW": "Read notice",
         "PRIVACY_ACCEPTED": "Notice checked"
       },
@@ -139,15 +139,15 @@
         "LEVEL_EVIDENCE_TITLE": "Level in evidence"
       },
       "AUTOSTART": {
-        "AUTOSTART_TITLE": "Automatic start of measure at startup",
+        "AUTOSTART_TITLE": "Automatic start of measurement at startup",
         "ON": "Active",
-        "OFF": "Disactive"
+        "OFF": "Inactive"
       },
       "COUNTDOWN_MEASURE": {
-        "COUNTDOWN_MEASURE_TITLE": "Countdown start measure"
+        "COUNTDOWN_MEASURE_TITLE": "Countdown start measurement"
       },
       "RANGE_FREQUENCE": {
-        "RANGE_FREQUENCE_TITLE": "Range frequence",
+        "RANGE_FREQUENCE_TITLE": "Frequency range",
         "RANGE_FREQUENCE_TEXT1": "recommended",
         "RANGE_FREQUENCE_TEXT2": "NOT recommended",
         "RANGE_FREQUENCE_TEXT3": "It is recommended to use the range"
@@ -158,7 +158,7 @@
         },
         "ORIENTATION": {
           "ORIENTATION_TITLE": "Rotate on startup",
-          "ORIENTATION_PORTRAIT_PRIMARY": "Not rotate",
+          "ORIENTATION_PORTRAIT_PRIMARY": "Do not rotate",
           "ORIENTATION_PORTRAIT_SECONDARY": "Rotate"
         },
         "LEVELS": {
@@ -174,11 +174,6 @@
           "COLOR_AUTO": "Auto",
           "COLOR_LIGHT": "Light",
           "COLOR_DARK": "Dark"
-        },
-        "LANGUAGE": {
-          "LANGUAGE_TITLE": "Language",
-          "LANGUAGE_IT": "Italian",
-          "LANGUAGE_EN": "English"
         }
       },
       "SAVE_DATA": {
@@ -243,9 +238,9 @@
       "SAVE_FILES_TIME1s": " day ago",
       "SAVE_FILES_TIME2s": " hour ago",
       "SAVE_FILES_TIME3s": " minute ago",
-      "SHARE_TITLE": "LDCE Noise Tracker: sharing measure",
-      "SHARE_TEXT": "The following measures are attached: ",
-      "SHARE_BUDDIES": "Share with buddies",
+      "SHARE_TITLE": "LDCE Noise Tracker: sharing measurement",
+      "SHARE_TEXT": "The following measurements are attached: ",
+      "SHARE_BUDDIES": "Share with friends",
       "SAVE_BUTTON": {
         "SAVE_BUTTON_TEXT1": "Data saved in the file:",
         "SAVE_BUTTON_TEXT2": "WARNING",
@@ -266,27 +261,27 @@
         "WHYTAKENOISE": "Reason",
         "COORDINATES": "Coordinates",
         "CALIBRATION": "Calibration",
-        "MEASURE_START": "Measure start",
-        "MEASURE_STOP": "Measure stop",
+        "MEASURE_START": "Measurement start",
+        "MEASURE_STOP": "Measurement stop",
         "MEASURE_DURATION": "Duration",
         "LAEQ": "LAeq(t)",
         "CLOUD": "Cloud"
       },
       "EDIT_DESCRIPTION": {
         "EDIT_BUTTON": "Edit metadata",
-        "HEADER_DESCRIPTION": "MEASURE DESCRIPTION",
-        "HEADER_MEASURETYPE": "MEASURE CONDITION",
+        "HEADER_DESCRIPTION": "MEASUREMENT DESCRIPTION",
+        "HEADER_MEASURETYPE": "MEASUREMENT CONDITION",
         "HEADER_ENVIRONMENT": "ENVIRONMENT",
         "HEADER_SOURCETYPE": "MAIN SOURCE",
         "HEADER_FEELING": "DESCRIBE THE SOUND ENVIRONMENT",
         "HEADER2_FEELING": "Describe:",
-        "HEADER_APPROPRIATE": "THE SOUND ENVIRONMENT IS APPROPRIATE TO THE PLACE?",
+        "HEADER_APPROPRIATE": "IS THE SOUND ENVIRONMENT APPROPRIATE TO THE PLACE?",
         "HEADER2_APPROPRIATE": "Appropriate:",
         "HEADER_WEATHER": "WEATHER CONDITION",
-        "HEADER_WHYTAKENOISE": "WHY DID YOU TAKE A MEASUREMENT WITH OPENOISE?",
+        "HEADER_WHYTAKENOISE": "WHY DID YOU TAKE A MEASUREMENT WITH LDCE NOISE TRACKER?",
         "OUTDOOR": "Outdoor",
         "INDOOR_OPEN_WINDOWS": "Indoor with open windows",
-        "INDOOR_CLOSE_WINDOWS": "Indoor with close windows",
+        "INDOOR_CLOSE_WINDOWS": "Indoor with closed windows",
         "ENVIRONMENT_URBAN": "Urban",
         "ENVIRONMENT_RURAL": "Rural",
         "ENVIRONMENT_WILDERNESS": "Wilderness",
@@ -297,7 +292,7 @@
         "SOURCETYPE_ELECTRO_MECHANICAL": "Electro-mechanical",
         "SOURCETYPE_ELECTRO_MECHANICAL_SUB": "Construction, ventilation, agriculture, domestic, electrical installation, industry",
         "SOURCETYPE_VOICE": "Voice",
-        "SOURCETYPE_VOICE_SUB": "Speech, singing, laugther, shout",
+        "SOURCETYPE_VOICE_SUB": "Speech, singing, laughter, shout",
         "SOURCETYPE_MUSIC": "Music",
         "SOURCETYPE_MUSIC_SUB": "Concert, disco",
         "SOURCETYPE_NATURE": "Nature",
@@ -315,12 +310,12 @@
         "WHYTAKENOISE_PROFESSIONAL": "Professional use",
         "WHYTAKENOISE_STUDY": "Study",
         "WHYTAKENOISE_EDUCATIONAL": "Teaching, educational",
-        "WHYTAKENOISE_ENTERTAIMENT": "Entertaiment",
+        "WHYTAKENOISE_ENTERTAIMENT": "Entertainment",
         "WHYTAKENOISE_OTHER": "Other reason",
         "METADATA_BAR_NODATA": "To be evaluated",
         "METADATA_FEELING_VERYGOOD": "Very good",
         "METADATA_FEELING_GOOD": "Good",
-        "METADATA_FEELING_NOBAD": "Neither good, no bad",
+        "METADATA_FEELING_NOBAD": "Neither good, nor bad",
         "METADATA_FEELING_BAD": "Bad",
         "METADATA_FEELING_VERYBAD": "Very bad",
         "METADATA_APPROPRIATE_NOTATALL": "Not at all",
@@ -328,7 +323,7 @@
         "METADATA_APPROPRIATE_MODERATELY": "Moderately",
         "METADATA_APPROPRIATE_VERY": "Very",
         "METADATA_APPROPRIATE_PERFECTLY": "Perfectly",
-        "METADATA_EDIT": "Edit in measure description",
+        "METADATA_EDIT": "Edit in measurement description",
         "CLOUD_YES": "Yes",
         "CLOUD_NO": "No",
         "COMPILED": "Compiled"
@@ -338,15 +333,16 @@
       "INFO_LABEL": {
         "INFO_LABEL_TECHNICAL": "Technical information",
         "INFO_LABEL_PROJECT": "Project information",
-        "INFO_LABEL_DEVELOP": "Develop",
+        "INFO_LABEL_DEVELOP": "Development",
         "INFO_LABEL_WARNING": "Warnings",
         "INFO_LABEL_DISCLAIMER": "Disclaimer",
         "INFO_LABEL_GLOSSARY": "Glossary",
-        "INFO_LABEL_ORIGIN": "Origin and purpouse",
+        "INFO_LABEL_ORIGIN": "Origin and purpose",
         "INFO_LABEL_COMMUNITY": "Share with community",
+        "INFO_LABEL_TEAM": "Team",
         "INFO_LABEL_CONTACTS": "Contacts",
         "INFO_LABEL_VERSION": "Version",
-        "INFO_LABEL_LICENCE": "Licence"
+        "INFO_LABEL_LICENCE": "License"
       },
       "WARNING": [
         {
@@ -354,7 +350,7 @@
           "OPENOISE_TEXT": "LDCE Noise Tracker is an app aimed at the measurement of real-time sound pressure level."
         },
         {
-          "TERM_TITLE": "TERM OF USE",
+          "TERM_TITLE": "TERMS OF USE",
           "TERM_TEXT": "This app is not intended for professional use, it does not necessarily guarantee an accurate noise measurement.<br> Since each device has a different response to noise, a comparison with a professional noise level meter in the measurement dynamic range is required.<br> The utilization of the app requires adequate technical knowledge and skill; an extemporary measurement might not be correct.<br> For more information, please refer to the device calibration and dynamic range specifications in the <i>Tutorial</i> section.<br>The calibrations and measurements sent to the LDCE Noise Tracker community will be used for statistical purposes only and cannot be used in any way to verify compliance with legal limits."
         },
         {
@@ -397,7 +393,7 @@
         },
         {
           "SEND_MEASUREMENTS_TITLE": "SEND A MEASUREMENT",
-          "SEND_MEASUREMENTS_TEXT": "To send a measurement to the LDCE Noise Tracker community, go to the Measurements page and press the cloud icon of the measurement file you wish to send.<br>Sending is allowed after checking the privacy notice, calibrating the device, filling in user data and measurement metadata.<br>Measurements without geographical coordinates cannot be sent; therefore, it is necessary to activate the device position before taking a measurement."
+          "SEND_MEASUREMENTS_TEXT": "To send a measurement to the LDCE Noise Tracker community, go to the Measurements page and press the cloud icon of the measurement file you wish to send.<br>Sending is allowed after checking the privacy notice, calibrating the device, filling in user data and measurement measurement metadata.<br>Measurements without geographical coordinates cannot be sent; therefore, it is necessary to activate the device position before taking a measurement."
         }
       ],
       "GLOSSARY": [
@@ -506,6 +502,12 @@
         {
           "CREDITS_TITLE": "LDCE Noise Tracker Team",
           "CREDITS_TEXT": "Developed by Dev Gondaliya, Computer Engineering Student at L.D. College of Engineering (LDCE), Ahmedabad, Gujarat, India."
+        }
+      ],
+      "TEAM": [
+        {
+          "TEAM_TITLE": "Development Team",
+          "TEAM_TEXT": "1) Dev Gondaliya<br>2) Jigar Ghoghari<br>3) Dev Bhavsar<br>4) Dev Letwala<br>5) Kaushal yadav"
         }
       ],
       "LICENCE": [],

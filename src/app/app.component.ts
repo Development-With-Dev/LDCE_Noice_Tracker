@@ -232,26 +232,9 @@ export class AppComponent {
   async setLanguage() {
 
     this.translateService.setDefaultLang('en');
+    this.variabiliService.language = 'en';
 
-    const languageDevice = await Device.getLanguageCode();
-    console.log("languageDevice", languageDevice.value);
-
-    var language = await this.preferencesService.get('language')
-    if (language == null) {
-      console.log("language non esiste, la inizializzo")
-      if (languageDevice.value === 'it') {
-        this.variabiliService.language = 'it'
-      } else {
-        this.variabiliService.language = 'en'
-      }
-    } else {
-      console.log("language esiste", language)
-      this.variabiliService.language = language
-    }
-
-    this.preferencesService.set("language", this.variabiliService.language)
-
-    this.translateService.use(this.variabiliService.language);
+    this.translateService.use('en');
     this.translateService.stream('TRANSLATION').subscribe((res: any) => {
       console.log("translateService", res)
       this.variabiliService.translation = res
