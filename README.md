@@ -35,7 +35,6 @@
   <img src="assets/screenshots/3.jpeg" width="150" />
   <img src="assets/screenshots/4.jpeg" width="150" />
   <img src="assets/screenshots/5.jpeg" width="150" />
-  <img src="assets/screenshots/6.jpeg" width="150" />
 </p>
 
 ---
