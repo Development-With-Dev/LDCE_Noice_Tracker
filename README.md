@@ -1,7 +1,7 @@
 # 🔊 LDCE Noise Tracker
 
 <p align="center">
-  <img src="logo/logo_icon.png" alt="LDCE Noise Tracker Logo" width="120"/>
+  <img src="logo/Screenshot 2026-04-20 104105.png" alt="LDCE Noise Tracker Logo" width="120"/>
 </p>
 
 <p align="center">
